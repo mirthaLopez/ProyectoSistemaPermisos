@@ -1,3 +1,34 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "fb77",
+      "nombre": "Carlos ",
+      "correo": "carlos@gmail.com",
+      "contrasena": "1234",
+      "cedula": "21314151"
+    },
+    {
+      "id": "3492",
+      "nombre": "Juan",
+      "correo": "juan@gmail.com",
+      "contrasena": "112233",
+      "cedula": "21314151"
+    },
+    {
+      "id": "3d39",
+      "nombre": "Carlos ",
+      "correo": "carlos@gmail.com",
+      "contrasena": "1234",
+      "cedula": "21314151",
+      "rol": "administrador"
+    },
+    {
+      "id": "b152",
+      "nombre": "Raul",
+      "correo": "carlos@gmail.com",
+      "contrasena": "112233",
+      "cedula": "21314151",
+      "rol": "Estudiante"
+    }
+  ]
 }
