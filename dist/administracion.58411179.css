@@ -1,0 +1,6 @@
+.solicitud {
+  grid-template-columns: repeat(7, 1fr);
+  display: grid;
+}
+
+/*# sourceMappingURL=administracion.58411179.css.map */

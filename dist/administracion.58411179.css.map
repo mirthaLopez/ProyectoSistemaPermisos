@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/css/administracion.css"],"sourcesContent":[".solicitud{\r\n    display: grid;\r\n    grid-template-columns: repeat(7, 1fr);\r\n}"],"names":[],"version":3,"file":"administracion.58411179.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -558,7 +558,7 @@ function hmrAccept(bundle, id) {
 
 },{}],"7wdpV":[function(require,module,exports) {
 /////////////////////Funciones importadas////////////////////////////////
-var _postUsers = require("../services/postUsers");
+var _postRequest = require("../services/postRequest");
 /////////////////////Declaracion de variables////////////////////////////
 const checkbox = document.getElementById("check");
 const textCheck = document.getElementById("textCheck");
@@ -580,7 +580,7 @@ btnEnviar.addEventListener("click", function() {
             codigoPc: codigoPc.value,
             estado: "Pendiente"
         };
-        (0, _postUsers.PostRequest)(solicitud);
+        (0, _postRequest.PostRequest)(solicitud);
     } else textAdvertencia.innerHTML = "Completa todas las casillas del formulario";
 });
 ////////////////////// Validar que el formulario este lleno///////////////////////
@@ -613,8 +613,8 @@ function validarCheckbox() {
     return validCheck;
 }
 
-},{"../services/postUsers":"dzUx9"}],"dzUx9":[function(require,module,exports) {
-////////////////////////////Get request to the server/////////////////////////
+},{"../services/postRequest":"8gC41"}],"8gC41":[function(require,module,exports) {
+////////////////////////////Post request to the server/////////////////////////
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PostRequest", ()=>PostRequest);

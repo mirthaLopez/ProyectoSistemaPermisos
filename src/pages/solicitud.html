@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/solicitud.css">
+    <title>Solicitud de Prestamo Computadora</title>
+</head>
+
+<body>
+
+
+
+    <div class="contenedorForm">
+        <div>
+            <div>
+                <h2>Formulario de solicitud</h2>
+                <p>Todos los datos deben ser llenados</p>
+            </div>
+            <p>nombre</p>
+            <input type="text" id="nombre"> <br> <br>
+            <select class="sede" required id="selector">
+                <option value="">Elige tu sede</option>
+                <option value="Nosara">Nosara</option>
+                <option value="Puntarenas">Puntarenas</option>
+                <option value="Santa Ana">Santa Ana</option>
+            </select><br>
+            <p>Fecha de salida</p>
+            <input type="date" id="fechaSalida"> <br>
+            <p>Fecha de ingreso</p>
+            <input type="date" id="fechaIngreso"> <br>
+            <p>Codigo PC</p>
+            <input type="text" id="codigoPc"> <br> <br>
+
+            <h4>Lee con atencion las siguientes condiciones y asegurate de marcar el checkbox si estas de acuerdo: </h4>
+
+            <ul>
+                <li>Si viajas en transporte público, debes resguardar tu equipo en tu bolso personal, no exponerlo.</li>
+                <li>Si llevas el equipo, procura ir acompañado.</li>
+                <li>Si está lloviendo, procura llevar el equipo en un vehículo apropiado para evitar algún daño.</li>
+                <li>Evitar jugar, descargar o utilizar el equipo para otros motivos que no sean relacionados con el
+                    estudio.</li>
+                <li>El equipo será revisado antes y después de ser entregado.Cualquier alteración o instalación indebida <br>
+                    podría resultar en la pérdida de privilegios.</li>
+                <li>Si retiras una computadora sin haber completado el formulario y la boleta física, podrías ser
+                    amonestado.</li>
+                <li>Este formulario debe llenarse junto con la boleta física, que debe estar firmada por la persona
+                    encargada.</li>
+            </ul>
+            <label for="1">Aceptar condiciones</label>
+            <input type="checkbox" id="check"> 
+            <p id="textCheck"></p> <br>
+
+            <button id="btnEnviar">Enviar Solicitud</button> <br>
+
+            <h5 id="textAdvertencia"></h5>
+        </div>
+
+    </div>
+
+
+    <script type="module" src="../js/solicitud.js"></script>
+</body>
+
+</html>

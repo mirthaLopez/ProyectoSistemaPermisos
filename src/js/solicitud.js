@@ -1,5 +1,5 @@
 /////////////////////Funciones importadas////////////////////////////////
-import { PostRequest } from "../services/postUsers";
+import { PostRequest } from "../services/postRequest";
 
 
 /////////////////////Declaracion de variables////////////////////////////
