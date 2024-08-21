@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/ingresar.html --open"
+    "start": "parcel src/pages/registro.html --open"
   },
   "keywords": [],
   "author": "",

@@ -3,7 +3,7 @@ async function GetUsers() {
         const response = await fetch('http://localhost:3007/users');
         const data = await response.json();
         if (response.status === 200) { 
-            console.log(42342342);
+            
             
             return data;
         }else {

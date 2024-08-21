@@ -558,24 +558,40 @@ function hmrAccept(bundle, id) {
 
 },{}],"cq6cn":[function(require,module,exports) {
 var _postusuario = require("../services/postusuario");
+var _getUsers = require("../services/getUsers");
 const nombre = document.getElementById("nombre");
 const correo = document.getElementById("correo");
 const contrasena = document.getElementById("contrasena");
 const cedula = document.getElementById("cedula");
 const botonR = document.getElementById("botonR");
 const select = document.getElementById("select");
+const textoBienvenida = document.getElementById("textoBienvenida");
 botonR.addEventListener("click", function() {
-    let usuario = {
-        nombre: nombre.value,
-        correo: correo.value,
-        contrasena: contrasena.value,
-        cedula: cedula.value,
-        rol: select.value
-    };
-    (0, _postusuario.postUsuario)(usuario);
+    {
+        async function traerLista() {
+            let listaUsuarios = await (0, _getUsers.GetUsers)();
+            return listaUsuarios;
+        }
+        validCorreo();
+        async function validCorreo() {
+            let response = await traerLista();
+            let encontrado = response.filter((element)=>element.correo === correo.value);
+            if (encontrado.length === 0) {
+                let usuario = {
+                    nombre: nombre.value,
+                    correo: correo.value,
+                    contrasena: contrasena.value,
+                    cedula: cedula.value,
+                    rol: select.value
+                };
+                (0, _postusuario.postUsuario)(usuario);
+                textoBienvenida.innerHTML = "Felicidades tu registro ha sido exitoso";
+            } else textoBienvenida.innerHTML = "El usuario ya se encuentra registrado";
+        }
+    }
 });
 
-},{"../services/postusuario":"cHvgq"}],"cHvgq":[function(require,module,exports) {
+},{"../services/postusuario":"cHvgq","../services/getUsers":"b4hYb"}],"cHvgq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "postUsuario", ()=>postUsuario);
@@ -625,6 +641,21 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["aZuGN","cq6cn"], "cq6cn", "parcelRequire6682")
+},{}],"b4hYb":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "GetUsers", ()=>GetUsers);
+async function GetUsers() {
+    try {
+        const response = await fetch("http://localhost:3007/users");
+        const data = await response.json();
+        if (response.status === 200) return data;
+        else console.log(data.error.message);
+    } catch (error) {
+        console.error(`Fetch error`, error);
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aZuGN","cq6cn"], "cq6cn", "parcelRequire6682")
 
 //# sourceMappingURL=registro.c095dc3c.js.map

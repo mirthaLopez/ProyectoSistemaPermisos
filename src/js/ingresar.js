@@ -8,26 +8,23 @@ const botonI = document.getElementById("botonI")
 
 
 botonI.addEventListener("click", function () {
-
     validarUsuario()
-
     async function validarUsuario() {
-
-        console.log(1);
-        
         let lista = await GetUsers()
-        console.log(lista)
+        for (let index = 0; index < lista.length; index++) {
 
+            if (lista[index].correo === correo.value && lista[index].contrasena === contrasena.value) {
+                let usuarioActivo=lista[index].nombre
+                localStorage.setItem("usuarioActivo", (usuarioActivo))
+                console.log("Usuario registrado")
+                window.location.href="registro.html"
 
-    }
-
-    for (let index = 0; index < lista.length; index++) {
-        
-        
-    }
-
+      
+            }else{
+                console.log("Usuario no regitrado")
     
-
-   
+            }   
+        }
+    } 
     
 })

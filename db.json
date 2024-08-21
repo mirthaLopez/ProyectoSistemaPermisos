@@ -8,26 +8,35 @@
       "cedula": "21314151"
     },
     {
-      "id": "3492",
-      "nombre": "Juan",
+      "id": "d5ea",
+      "nombre": "Carlos ",
+      "correo": "carlos45@gmail.com",
+      "contrasena": "35464",
+      "cedula": "53376",
+      "rol": "Administrador"
+    },
+    {
+      "id": "f0c4",
+      "nombre": "Carlos ",
       "correo": "juan@gmail.com",
       "contrasena": "112233",
-      "cedula": "21314151"
-    },
-    {
-      "id": "3d39",
-      "nombre": "Carlos ",
-      "correo": "carlos@gmail.com",
-      "contrasena": "1234",
       "cedula": "21314151",
-      "rol": "administrador"
+      "rol": "Administrador"
     },
     {
-      "id": "b152",
-      "nombre": "Raul",
-      "correo": "carlos@gmail.com",
+      "id": "aed8",
+      "nombre": "Carlos ",
+      "correo": "juan1@gmail.com",
       "contrasena": "112233",
       "cedula": "21314151",
+      "rol": "Administrador"
+    },
+    {
+      "id": "368a",
+      "nombre": "Juan",
+      "correo": "",
+      "contrasena": "",
+      "cedula": "23456",
       "rol": "Estudiante"
     }
   ]

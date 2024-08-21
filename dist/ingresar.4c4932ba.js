@@ -564,11 +564,14 @@ const botonI = document.getElementById("botonI");
 botonI.addEventListener("click", function() {
     validarUsuario();
     async function validarUsuario() {
-        console.log(1);
-        let lista1 = await (0, _getUsers.GetUsers)();
-        console.log(lista1);
+        let lista = await (0, _getUsers.GetUsers)();
+        for(let index = 0; index < lista.length; index++)if (lista[index].correo === correo.value && lista[index].contrasena === contrasena.value) {
+            let usuarioActivo = lista[index].nombre;
+            localStorage.setItem("usuarioActivo", usuarioActivo);
+            console.log("Usuario registrado");
+            window.location.href = "registro.html";
+        } else console.log("Usuario no regitrado");
     }
-    for(let index = 0; index < lista.length; index++);
 });
 
 },{"../services/getUsers":"b4hYb"}],"b4hYb":[function(require,module,exports) {
@@ -579,10 +582,8 @@ async function GetUsers() {
     try {
         const response = await fetch("http://localhost:3007/users");
         const data = await response.json();
-        if (response.status === 200) {
-            console.log(42342342);
-            return data;
-        } else console.log(data.error.message);
+        if (response.status === 200) return data;
+        else console.log(data.error.message);
     } catch (error) {
         console.error(`Fetch error`, error);
     }
