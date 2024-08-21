@@ -1,7 +1,7 @@
 {
   "users": [],
   "pendingRequest": [],
-  "aprovedRequest": [
+  "allRequest": [
     {
       "id": "73cf",
       "nombre": "MIRTHA",
@@ -12,8 +12,8 @@
       "estado": "Aceptada"
     },
     {
-      "id": "8a61",
-      "nombre": "MIRTHA",
+      "id": "8d08",
+      "nombre": "juan",
       "sede": "Puntarenas",
       "fechaSalida": "2024-08-30",
       "fechaIngreso": "2024-08-23",
@@ -21,8 +21,8 @@
       "estado": "Aceptada"
     },
     {
-      "id": "2bdd",
-      "nombre": "MIRTHA",
+      "id": "964b",
+      "nombre": "mila",
       "sede": "Puntarenas",
       "fechaSalida": "2024-08-30",
       "fechaIngreso": "2024-08-23",
@@ -30,80 +30,19 @@
       "estado": "Aceptada"
     },
     {
-      "id": "500b",
-      "nombre": "MIRTHA",
+      "id": "6597",
+      "nombre": "javier",
       "sede": "Puntarenas",
       "fechaSalida": "2024-08-30",
       "fechaIngreso": "2024-08-23",
       "codigoPc": "1234",
       "estado": "Rechazada"
-    },
+    }
+  ],
+  "aprovedRequest": [
     {
-      "id": "b5be",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "cc72",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "8d03",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "970c",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "6dbf",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "5ebc",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "2ef1",
-      "nombre": "MIRTHA",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-30",
-      "fechaIngreso": "2024-08-23",
-      "codigoPc": "1234",
-      "estado": "Rechazada"
-    },
-    {
-      "id": "b8f2",
-      "nombre": "MIRTHA",
+      "id": "06ed",
+      "nombre": "mila",
       "sede": "Puntarenas",
       "fechaSalida": "2024-08-30",
       "fechaIngreso": "2024-08-23",

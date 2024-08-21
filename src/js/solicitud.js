@@ -24,7 +24,8 @@ btnEnviar.addEventListener("click", function () {
             codigoPc:codigoPc.value,
             estado:"Pendiente"
         }
-        PostRequest(solicitud)
+        let url='http://localhost:3007/pendingRequest';
+        PostRequest(solicitud, url)
     }else{
         textAdvertencia.innerHTML="Completa todas las casillas del formulario"
     }

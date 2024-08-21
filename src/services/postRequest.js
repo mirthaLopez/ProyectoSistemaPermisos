@@ -1,8 +1,8 @@
 ////////////////////////////Post request to the server/////////////////////////
 
-async function PostRequest(solicitud) {
+async function PostRequest(solicitud, url) {
     try {
-        const response = await fetch('http://localhost:3007/pendingRequest', {
+        const response = await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json' 
@@ -17,28 +17,3 @@ async function PostRequest(solicitud) {
 }
 export {PostRequest};
 
-////////////////////////////////Post Historial//////////////////////////////////////
-async function PostHistory(nombre, sede, fechaSalida, fechaIngreso, codigoPc, estado) {
-    const solicitudStatus={
-        nombre,
-        sede,
-        fechaSalida,
-        fechaIngreso,
-        codigoPc,
-        estado,
-    }
-    try {
-        const response = await fetch('http://localhost:3007/aprovedRequest', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json' 
-            },
-            body: JSON.stringify(solicitudStatus)
-        });
-        const data = await response.json();
-        return data; 
-    } catch (error) {
-        console.error(error);
-    }
-}
-export {PostHistory};

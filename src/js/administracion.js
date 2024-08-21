@@ -1,16 +1,21 @@
 ////////////////////////Funciones Importadas///////////////////////
 import {
-    GetPendingRequests
+    GetRequests
 } from "../services/getRequests";
 //import {updateRequests} from "../services/updateRequests";
 
-import { PostHistory } from '../services/postRequest';
-import { deleteRequests } from '../services/deleteRequests';
+import {
+    PostRequest
+} from '../services/postRequest';
+import {
+    deleteRequests
+} from '../services/deleteRequests';
 /////////////////////Declaracion de variables/////////////////////
 const containerPendingRequests = document.getElementById("containerPendingRequests")
 showRequests();
 async function showRequests() {
-    let solicitudes = await GetPendingRequests();
+    let url = "http://localhost:3007/pendingRequest";
+    let solicitudes = await GetRequests(url);
     for (let index = 0; index < solicitudes.length; index++) {
         let solicitud = document.createElement("div");
         solicitud.className = "solicitud"
@@ -45,16 +50,37 @@ async function showRequests() {
         solicitud.appendChild(btnRechazar);
         /////Creo un evento para el boton Aceptar/////////
         btnAceptar.addEventListener("click", function () {
-            let estado = "Aceptada"
+            let request = {
+                nombre:solicitudes[index].nombre,
+                sede:solicitudes[index].sede,
+                fechaSalida:solicitudes[index].fechaSalida,
+                fechaIngreso:solicitudes[index].fechaIngreso,
+                codigoPc:solicitudes[index].codigoPc,
+                estado:"Aceptada"
+            }
             //updateRequests(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado, solicitudes[index].id);
-            PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
+            //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
+            
+            let url="http://localhost:3007/allRequest";
+            let link="http://localhost:3007/aprovedRequest";
+            PostRequest(request, url)
+            PostRequest(request, link)
             deleteRequests(solicitudes[index].id);
             solicitud.remove();
         })
         btnRechazar.addEventListener("click", function () {
-            let estado = "Rechazada"
+            let request = {
+                nombre:solicitudes[index].nombre,
+                sede:solicitudes[index].sede,
+                fechaSalida:solicitudes[index].fechaSalida,
+                fechaIngreso:solicitudes[index].fechaIngreso,
+                codigoPc:solicitudes[index].codigoPc,
+                estado:"Rechazada"
+            }
+            let url="http://localhost:3007/allRequest";
+            PostRequest(request, url);
             //updateRequests(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado, solicitudes[index].id);
-            PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
+            //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
             deleteRequests(solicitudes[index].id);
             solicitud.remove();
         })

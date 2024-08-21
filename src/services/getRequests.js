@@ -1,7 +1,7 @@
 ////////////////////Fetch get request//////////////////////////////////
-async function GetPendingRequests() { 
+async function GetRequests(url) {
     try {
-        const response = await fetch('http://localhost:3007/pendingRequest'); // fetch consulta=go and get
+        const response = await fetch(url); // fetch consulta=go and get
         const data = await response.json();// also async so we need await 
         if (response.status === 200) { /// to validate a sucessful response, we got the date we needed
             return data;
@@ -14,4 +14,4 @@ async function GetPendingRequests() {
     }
 }
 
-export {GetPendingRequests}
+export {GetRequests}

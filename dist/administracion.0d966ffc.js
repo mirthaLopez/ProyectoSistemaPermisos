@@ -566,7 +566,8 @@ var _deleteRequests = require("../services/deleteRequests");
 const containerPendingRequests = document.getElementById("containerPendingRequests");
 showRequests();
 async function showRequests() {
-    let solicitudes = await (0, _getRequests.GetPendingRequests)();
+    let url = "http://localhost:3007/pendingRequest";
+    let solicitudes = await (0, _getRequests.GetRequests)(url);
     for(let index = 0; index < solicitudes.length; index++){
         let solicitud = document.createElement("div");
         solicitud.className = "solicitud";
@@ -596,16 +597,36 @@ async function showRequests() {
         solicitud.appendChild(btnRechazar);
         /////Creo un evento para el boton Aceptar/////////
         btnAceptar.addEventListener("click", function() {
-            let estado = "Aceptada";
+            let request = {
+                nombre: solicitudes[index].nombre,
+                sede: solicitudes[index].sede,
+                fechaSalida: solicitudes[index].fechaSalida,
+                fechaIngreso: solicitudes[index].fechaIngreso,
+                codigoPc: solicitudes[index].codigoPc,
+                estado: "Aceptada"
+            };
             //updateRequests(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado, solicitudes[index].id);
-            (0, _postRequest.PostHistory)(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
+            //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
+            let url = "http://localhost:3007/allRequest";
+            let link = "http://localhost:3007/aprovedRequest";
+            (0, _postRequest.PostRequest)(request, url);
+            (0, _postRequest.PostRequest)(request, link);
             (0, _deleteRequests.deleteRequests)(solicitudes[index].id);
             solicitud.remove();
         });
         btnRechazar.addEventListener("click", function() {
-            let estado = "Rechazada";
+            let request = {
+                nombre: solicitudes[index].nombre,
+                sede: solicitudes[index].sede,
+                fechaSalida: solicitudes[index].fechaSalida,
+                fechaIngreso: solicitudes[index].fechaIngreso,
+                codigoPc: solicitudes[index].codigoPc,
+                estado: "Rechazada"
+            };
+            let url = "http://localhost:3007/allRequest";
+            (0, _postRequest.PostRequest)(request, url);
             //updateRequests(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado, solicitudes[index].id);
-            (0, _postRequest.PostHistory)(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
+            //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
             (0, _deleteRequests.deleteRequests)(solicitudes[index].id);
             solicitud.remove();
         });
@@ -637,14 +658,14 @@ async function buscarId(cedulaUsuario) {
     return identificador
 }*/ 
 
-},{"../services/getRequests":"5M2Qv","../services/updateRequests":"9irdv","../services/postRequest":"8gC41","../services/deleteRequests":"9VvIT"}],"5M2Qv":[function(require,module,exports) {
+},{"../services/getRequests":"5M2Qv","../services/postRequest":"8gC41","../services/deleteRequests":"9VvIT"}],"5M2Qv":[function(require,module,exports) {
 ////////////////////Fetch get request//////////////////////////////////
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "GetPendingRequests", ()=>GetPendingRequests);
-async function GetPendingRequests() {
+parcelHelpers.export(exports, "GetRequests", ()=>GetRequests);
+async function GetRequests(url) {
     try {
-        const response = await fetch("http://localhost:3007/pendingRequest"); // fetch consulta=go and get
+        const response = await fetch(url); // fetch consulta=go and get
         const data = await response.json(); // also async so we need await 
         if (response.status === 200) return data;
         else console.log(data.error.message); /// means there was a server problem (invalid access token for example)   
@@ -684,72 +705,19 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"9irdv":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "updateRequests", ()=>updateRequests);
-async function updateRequests(nombre, sede, fechaSalida, fechaIngreso, codigoPc, estado, id) {
-    const solicitud = {
-        nombre,
-        sede,
-        fechaSalida,
-        fechaIngreso,
-        codigoPc,
-        estado
-    };
-    try {
-        const response = await fetch("http://localhost:3007/pendingRequest/" + id, {
-            method: "PUT",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(solicitud)
-        });
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error(error);
-    }
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8gC41":[function(require,module,exports) {
+},{}],"8gC41":[function(require,module,exports) {
 ////////////////////////////Post request to the server/////////////////////////
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PostRequest", ()=>PostRequest);
-parcelHelpers.export(exports, "PostHistory", ()=>PostHistory);
-async function PostRequest(solicitud) {
+async function PostRequest(solicitud, url) {
     try {
-        const response = await fetch("http://localhost:3007/pendingRequest", {
+        const response = await fetch(url, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(solicitud)
-        });
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error(error);
-    }
-}
-////////////////////////////////Post Historial//////////////////////////////////////
-async function PostHistory(nombre, sede, fechaSalida, fechaIngreso, codigoPc, estado) {
-    const solicitudStatus = {
-        nombre,
-        sede,
-        fechaSalida,
-        fechaIngreso,
-        codigoPc,
-        estado
-    };
-    try {
-        const response = await fetch("http://localhost:3007/aprovedRequest", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(solicitudStatus)
         });
         const data = await response.json();
         return data;

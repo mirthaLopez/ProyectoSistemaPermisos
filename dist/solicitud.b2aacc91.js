@@ -580,7 +580,8 @@ btnEnviar.addEventListener("click", function() {
             codigoPc: codigoPc.value,
             estado: "Pendiente"
         };
-        (0, _postRequest.PostRequest)(solicitud);
+        let url = "http://localhost:3007/pendingRequest";
+        (0, _postRequest.PostRequest)(solicitud, url);
     } else textAdvertencia.innerHTML = "Completa todas las casillas del formulario";
 });
 ////////////////////// Validar que el formulario este lleno///////////////////////
@@ -618,14 +619,39 @@ function validarCheckbox() {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PostRequest", ()=>PostRequest);
-async function PostRequest(solicitud) {
+parcelHelpers.export(exports, "PostHistory", ()=>PostHistory);
+async function PostRequest(solicitud, url) {
     try {
-        const response = await fetch("http://localhost:3007/pendingRequest", {
+        const response = await fetch(url, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(solicitud)
+        });
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+    }
+}
+////////////////////////////////Post Historial//////////////////////////////////////
+async function PostHistory(nombre, sede, fechaSalida, fechaIngreso, codigoPc, estado) {
+    const solicitudStatus = {
+        nombre,
+        sede,
+        fechaSalida,
+        fechaIngreso,
+        codigoPc,
+        estado
+    };
+    try {
+        const response = await fetch("http://localhost:3007/aprovedRequest", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(solicitudStatus)
         });
         const data = await response.json();
         return data;
