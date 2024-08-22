@@ -2,3 +2,8 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+
+.icono{
+    height: 60px;
+    width: 50px;
+}

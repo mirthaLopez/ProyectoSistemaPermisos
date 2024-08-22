@@ -36,16 +36,14 @@ async function mostrarHistorial() {
 
         if (solicitudes[index].estado === "Aceptada") {
             let estado = document.createElement("div");
-            var imgElement = document.createElement('img')
-            imgElement.alt=""
-            estado.appendChild(imgElement)
-             imgElement.src="/aceptada.cabe0510.png"
-            solicitud.appendChild(estado)
+            solicitud.appendChild(estado);
+            estado.innerHTML = `<img class="icono" src="/paper_16480469.bb52e876.png">`;
             estado.className = "iconoEstado"
+            
         } else if (solicitudes[index].estado === "Rechazada") {
             let estado = document.createElement("div");
             solicitud.appendChild(estado);
-            estado.innerHTML = `<img src="../img/rechazada.png">`;
+            estado.innerHTML = `<img class="icono" src="/rechazada.8561f893.png">`;
             estado.className = "iconoEstado"
         }
     }

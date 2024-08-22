@@ -48,6 +48,15 @@
       "fechaIngreso": "2024-08-23",
       "codigoPc": "1234",
       "estado": "Aceptada"
+    },
+    {
+      "id": "6597",
+      "nombre": "javier",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-30",
+      "fechaIngreso": "2024-08-23",
+      "codigoPc": "1234",
+      "estado": "Aceptada"
     }
   ]
 }
