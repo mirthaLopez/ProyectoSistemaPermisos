@@ -1,4 +1,31 @@
 .contenedorForm{
     display: flex;
     justify-content: center;
+    border: 1px solid red;
+}
+.solicitud{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.contenedorCondiciones{
+    overflow-x:scroll;
+    height:100px;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contenedorDatos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.titulos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.contenedorHistorial{
+    border: 1px solid green;
 }

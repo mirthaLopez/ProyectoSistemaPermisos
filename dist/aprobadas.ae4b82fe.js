@@ -560,34 +560,36 @@ function hmrAccept(bundle, id) {
 ///////////////////Funciones Importadas///////////////////////////
 var _getRequests = require("../services/getRequests");
 ///////////////////Declaracion de variables////////////////////////
-const tablaSolicitudes = document.getElementById("tablaSolicitudes");
+const tableBody = document.querySelector("#tablaSolicitudes tbody");
 //////////////////////////////////////////////////////////////////
 mostrarHistorial();
 async function mostrarHistorial() {
     let url = "http://localhost:3007/aprovedRequest";
     let solicitudes = await (0, _getRequests.GetRequests)(url);
-    for(let index = 0; index < solicitudes.length; index++){
-        let solicitud = document.createElement("tr");
-        solicitud.className = "solicitud";
-        tablaSolicitudes.appendChild(solicitud);
-        let nombre = document.createElement("td");
-        solicitud.appendChild(nombre);
-        nombre.innerHTML = solicitudes[index].nombre;
-        let sede = document.createElement("td");
-        solicitud.appendChild(sede);
-        sede.innerHTML = solicitudes[index].sede;
-        let fechaSalida = document.createElement("td");
-        solicitud.appendChild(fechaSalida);
-        fechaSalida.innerHTML = solicitudes[index].fechaSalida;
-        let fechaIngreso = document.createElement("td");
-        solicitud.appendChild(fechaIngreso);
-        fechaIngreso.innerHTML = solicitudes[index].fechaIngreso;
-        console.log(solicitudes[index].codigoPc);
-        let codigoPc = document.createElement("td");
-        solicitud.appendChild(codigoPc);
-        codigoPc.innerHTML = solicitudes[index].codigoPc;
-    }
-}
+    let out = "";
+    for (let solicitud of solicitudes)out += `
+           <tr>
+                   <td>${solicitud.id}</td>
+	               <td>${solicitud.nombre}</td>
+	               <td>${solicitud.correo}</td>
+	               <td>${solicitud.sede}</td>
+	               <td>${solicitud.fechaSalida}</td>
+	               <td>${solicitud.fechaIngreso}</td>
+	               <td>${solicitud.codigoPc}</td>
+	               <td>${solicitud.estado}</td>
+            </tr>
+        `;
+    tableBody.innerHTML = out;
+/*solicitudes.map(solicitud => {
+        const row = document.createElement("tr");
+        Object.values(solicitud).map(value => {
+            const cell = document.createElement("td");
+            cell.textContent = value;
+            row.appendChild(cell);
+        });
+    
+        tableBody.appendChild(row);
+    });*/ }
 
 },{"../services/getRequests":"5M2Qv"}],"5M2Qv":[function(require,module,exports) {
 ////////////////////Fetch get request//////////////////////////////////

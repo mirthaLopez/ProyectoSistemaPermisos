@@ -1,14 +1,4 @@
-async function updateRequests( nombre, sede, fechaSalida, fechaIngreso, codigoPc, estado, id) {
-    const solicitud={
-     
-        nombre,
-        sede,
-        fechaSalida,
-        fechaIngreso,
-        codigoPc,
-        estado,
-    }
-    
+async function updateRequests( solicitud, id) {
     try {
         const response = await fetch('http://localhost:3007/pendingRequest/'+id, {
             method: 'PUT',

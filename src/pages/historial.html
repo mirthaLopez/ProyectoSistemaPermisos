@@ -7,9 +7,21 @@
     <title>Historial</title>
 </head>
 <body>
-    <h1>Historial de Solicitudes</h1>
+    <br>
+    <br>
+    <div class="contenedorSearch">
+        <input type="text" id="inputSearch"> 
+        <button id="btnSearch">Buscar</button>
+    </div>
+    <br>
+    <br>
+
+    <div style="display: none;" id="tituloBusqueda"><h1>Aqui tienes los resultados de tu busqueda</h1></div>
     <div class="mainContainer">
-        <div id="containerPendingRequests"></div>
+        <div id="containerResults" style="border: 1px slateblue;">
+        </div>
+        <div id="containerHistory">
+        </div>
     </div>
 
     <script type="module" src="../js/historial.js"></script>

@@ -1,6 +1,6 @@
-async function deleteRequests(id) {
+async function deleteRequests(url,id) {
     try {
-        const response = await fetch(`http://localhost:3007/pendingRequest/${id}`, {
+        const response = await fetch(url+"/"+id, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

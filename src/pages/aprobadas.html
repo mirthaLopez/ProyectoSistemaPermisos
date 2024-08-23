@@ -10,15 +10,21 @@
 
 <body>
     <h1 style="display: flex; justify-content: center;">Historial De Solicitudes Aceptadas</h1>
-    <div class="contenedorSolicitudes">
-    <table id="tablaSolicitudes">
+    <div class="contenedorSolicitudes" >
+    <table id="tablaSolicitudes" style="border: 1px solid;">
         <tr>
+            <th>ID</th>
             <th>NOMBRE</th>
+            <th>EMAIL</th>
             <th>SEDE</th>
             <th>FECHA SALIDA</th>
             <th>FECHA INGRESO</th>
             <th>CODIGO</th>
+            <th>ESTADO</th>
         </tr>
+        <tbody>
+              <!-- Rows will be added here -->
+        </tbody>
     </table>
 </div>
     <script type="module" src="../js/aprobadas.js"></script>

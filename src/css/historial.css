@@ -1,3 +1,8 @@
+#containerResults{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
 .solicitud{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -6,4 +11,9 @@
 .icono{
     height: 60px;
     width: 50px;
+}
+
+.contenedorSearch{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }

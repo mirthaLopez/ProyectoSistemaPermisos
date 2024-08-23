@@ -7,6 +7,8 @@ import {
 import {
     PostRequest
 } from '../services/postRequest';
+
+/*import { updateRequests } from "../services/updateRequests";*/
 import {
     deleteRequests
 } from '../services/deleteRequests';
@@ -52,13 +54,14 @@ async function showRequests() {
         btnAceptar.addEventListener("click", function () {
             let request = {
                 nombre:solicitudes[index].nombre,
+                correo:solicitudes[index].correo,
                 sede:solicitudes[index].sede,
                 fechaSalida:solicitudes[index].fechaSalida,
                 fechaIngreso:solicitudes[index].fechaIngreso,
                 codigoPc:solicitudes[index].codigoPc,
                 estado:"Aceptada"
             }
-            //updateRequests(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado, solicitudes[index].id);
+            //updateRequests(request, solicitudes[index].id);
             //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
             
             let url="http://localhost:3007/allRequest";
@@ -71,6 +74,7 @@ async function showRequests() {
         btnRechazar.addEventListener("click", function () {
             let request = {
                 nombre:solicitudes[index].nombre,
+                correo:solicitudes[index].correo,
                 sede:solicitudes[index].sede,
                 fechaSalida:solicitudes[index].fechaSalida,
                 fechaIngreso:solicitudes[index].fechaIngreso,
@@ -79,9 +83,8 @@ async function showRequests() {
             }
             let url="http://localhost:3007/allRequest";
             PostRequest(request, url);
-            //updateRequests(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado, solicitudes[index].id);
-            //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
-            deleteRequests(solicitudes[index].id);
+            let link="http://localhost:3007/pendingRequest"
+            deleteRequests(link,solicitudes[index].id);
             solicitud.remove();
         })
     }

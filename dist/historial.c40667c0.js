@@ -558,15 +558,66 @@ function hmrAccept(bundle, id) {
 
 },{}],"1lCog":[function(require,module,exports) {
 ///////////////////Funciones Importadas///////////////////////////
+var _deleteRequests = require("../services/deleteRequests");
 var _getRequests = require("../services/getRequests");
+////////////////////Declaracion de variables////////////////////
+const inputSearch = document.getElementById("inputSearch");
+const btnSearch = document.getElementById("btnSearch");
+const tituloBusqueda = document.getElementById("tituloBusqueda");
+/////////////////////Evento Boton Busqueda///////////////////////
+btnSearch.addEventListener("click", function() {
+    containerResults.innerHTML = " ";
+    containerHistory.style.display = "none";
+    tituloBusqueda.style.display = "inline";
+    //containerResults.style.display="none"
+    mostrarResultadosBusqueda();
+    async function mostrarResultadosBusqueda() {
+        let url = "http://localhost:3007/allRequest";
+        let solicitudes = await (0, _getRequests.GetRequests)(url);
+        const resultado = solicitudes.filter((e)=>e.nombre.includes(inputSearch.value) || e.sede.includes(inputSearch.value) || e.fechaSalida.includes(inputSearch.value) || e.fechaIngreso.includes(inputSearch.value) || e.codigoPc.includes(inputSearch.value) || e.estado.includes(inputSearch.value));
+        console.log(resultado);
+        for(let index = 0; index < resultado.length; index++){
+            let nombre = document.createElement("p");
+            containerResults.appendChild(nombre);
+            nombre.innerHTML = resultado[index].nombre;
+            let sede = document.createElement("p");
+            containerResults.appendChild(sede);
+            sede.innerHTML = resultado[index].sede;
+            let fechaSalida = document.createElement("p");
+            containerResults.appendChild(fechaSalida);
+            fechaSalida.innerHTML = resultado[index].fechaSalida;
+            let fechaIngreso = document.createElement("p");
+            containerResults.appendChild(fechaIngreso);
+            fechaIngreso.innerHTML = resultado[index].fechaIngreso;
+            let codigoPc = document.createElement("p");
+            containerResults.appendChild(codigoPc);
+            codigoPc.innerHTML = resultado[index].codigoPc;
+            if (solicitudes[index].estado === "Aceptada") {
+                let estado = document.createElement("div");
+                containerResults.appendChild(estado);
+                estado.innerHTML = `<img class="icono" src="/paper_16480469.bb52e876.png">`;
+                estado.className = "iconoEstado";
+            } else if (solicitudes[index].estado === "Rechazada") {
+                let estado = document.createElement("div");
+                containerResults.appendChild(estado);
+                estado.innerHTML = `<img class="icono" src="/rechazada.8561f893.png">`;
+                estado.className = "iconoEstado";
+            }
+        }
+    }
+});
+/////////////////////////////////////////////////////////////////
 mostrarHistorial();
 async function mostrarHistorial() {
     let url = "http://localhost:3007/allRequest";
     let solicitudes = await (0, _getRequests.GetRequests)(url);
+    let titulo = document.createElement("h1");
+    titulo.innerHTML = "Historial de Solicitudes";
+    containerHistory.appendChild(titulo);
     for(let index = 0; index < solicitudes.length; index++){
         let solicitud = document.createElement("div");
         solicitud.className = "solicitud";
-        containerPendingRequests.appendChild(solicitud);
+        containerHistory.appendChild(solicitud);
         let nombre = document.createElement("p");
         solicitud.appendChild(nombre);
         nombre.innerHTML = solicitudes[index].nombre;
@@ -594,14 +645,21 @@ async function mostrarHistorial() {
             estado.innerHTML = `<img class="icono" src="/rechazada.8561f893.png">`;
             estado.className = "iconoEstado";
         }
+        //Crea un boton Eliminar
+        let btnEliminar = document.createElement("button");
+        btnEliminar.innerHTML = "Eliminar registro";
+        solicitud.appendChild(btnEliminar);
+        //Creo un evento para el boton Eliminar
+        btnEliminar.addEventListener("click", function() {
+            let id = solicitudes[index].id;
+            let url = "http://localhost:3007/allRequest";
+            (0, _deleteRequests.deleteRequests)(url, id);
+            solicitud.remove();
+        });
     }
-} /*var imgElement = document.createElement('img');
-imgElement.src = 'ruta/a/tu/imagen.jpg';
-imgElement.width = 100; // Ancho: 100px
-imgElement.height = 200; // Alto: 200px
-document.body.appendChild(imgElement);*/ 
+}
 
-},{"../services/getRequests":"5M2Qv"}],"5M2Qv":[function(require,module,exports) {
+},{"../services/getRequests":"5M2Qv","../services/deleteRequests":"9VvIT"}],"5M2Qv":[function(require,module,exports) {
 ////////////////////Fetch get request//////////////////////////////////
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -648,6 +706,28 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["aXeaW","1lCog"], "1lCog", "parcelRequire6682")
+},{}],"9VvIT":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "deleteRequests", ()=>deleteRequests);
+async function deleteRequests(url, id) {
+    try {
+        const response = await fetch(url + "/" + id, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error(`Error deleting user with id ${id}`);
+        return {
+            message: `User with id ${id} deleted successfully`
+        };
+    } catch (error) {
+        console.error("Error deleting user:", error);
+        throw error;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aXeaW","1lCog"], "1lCog", "parcelRequire6682")
 
 //# sourceMappingURL=historial.c40667c0.js.map

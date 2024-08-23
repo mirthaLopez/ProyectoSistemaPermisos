@@ -1,4 +1,4 @@
-.solicitud {
+#containerResults, .solicitud {
   grid-template-columns: repeat(7, 1fr);
   display: grid;
 }
@@ -6,6 +6,11 @@
 .icono {
   height: 60px;
   width: 50px;
+}
+
+.contenedorSearch {
+  grid-template-columns: 3fr 1fr;
+  display: grid;
 }
 
 /*# sourceMappingURL=historial.6fd4baa1.css.map */

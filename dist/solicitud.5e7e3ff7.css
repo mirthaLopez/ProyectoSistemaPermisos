@@ -1,6 +1,31 @@
 .contenedorForm {
+  border: 1px solid red;
   justify-content: center;
   display: flex;
+}
+
+.solicitud {
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+}
+
+.contenedorCondiciones {
+  height: 100px;
+  overflow-x: scroll;
+}
+
+.mainContainer, .contenedorDatos {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
+
+.titulos {
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+}
+
+.contenedorHistorial {
+  border: 1px solid green;
 }
 
 /*# sourceMappingURL=solicitud.5e7e3ff7.css.map */
