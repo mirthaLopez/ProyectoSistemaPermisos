@@ -1,6 +1,6 @@
 async function GetUsers() { 
     try {
-        const response = await fetch('http://localhost:3007/users');
+        const response = await fetch("http://localhost:3007/users");
         const data = await response.json();
         if (response.status === 200) { 
             

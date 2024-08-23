@@ -1,46 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/registro.css">
 </head>
+
 <body>
 
-    <div class="contenedor">
-        <h1>Registro</h1>
-        <br>
-        <h3>Nombre</h3>
-        <input class="nombre" type="text" id="nombre">
-        <br>
-        <h3>Correo</h3>
-        <input class="correo" type="text" id="correo">
-        <br>
-        <h3>Contraseña</h3>
-        <input class="contrasena" type="text" id="contrasena">
-        <br>
-        <h3>Cédula</h3>
-        <input class="cedula" type="text" id="cedula">
-        <br>
-        <br>
-        <select class="select"  id="select">
-            <option value="">Elije tu rol</option>
-            <option value="Administrador">Administrador</option>
-            <option value="Estudiante">Estudiante</option>
-        </select>
-        <br>
-        <br>
-        <button class="botonRegistrar" id="botonR">Registrar</button>
-        <h4 id="textoBienvenida"> </h4>
+    <header>
+        <div class="contenedorLogo">
+            <a href=""></a><img src="../img/FWD - Logotipo.webp" alt="image">
+            <p class="textoLogo"></p>
+
+        </div>
+    </header>
+
+    <div class="contenedorA">
+        <div class="contenedorRegistro">
+
+            <div class="contenedorDatos">
+                <h1 class="registro">Registro</h1>
+                <br>
+                <br>
+                <h3>Nombre</h3>
+                <input class="input" type="text" id="nombre">
+                <br>
+                <h3>Correo</h3>
+                <input class="input" type="text" id="correo">
+                <br>
+                <h3>Contraseña</h3>
+                <input class="input" type="text" id="contrasena">
+                <br>
+                <h3>Cédula</h3>
+                <input class="input" type="text" id="cedula">
+                <br>
+                <br>
+                <select class="select" id="select">
+                    <option value="">Elije tu rol</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Estudiante">Estudiante</option>
+                </select>
+                <br>
+                <br>
+                <button class="botonRegistrar" id="botonR">Registrar</button>
+
+                <div class="textoBienvenida">
+                 <h4 id="textoBienvenida"> </h4>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <div class="href">
+        <a class="link" href="http://localhost:1234/ingresar.html">ir a ingresar</a>
     </div>
 
 
+    <footer class="footer">
 
-
-
-
+    </footer>
 
     <script type="module" src="../js/registro.js"></script>
 </body>
+
 </html>

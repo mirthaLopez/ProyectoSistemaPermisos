@@ -38,6 +38,14 @@
       "contrasena": "",
       "cedula": "23456",
       "rol": "Estudiante"
+    },
+    {
+      "id": "c4b7",
+      "nombre": "Juan",
+      "correo": "mirtha.com",
+      "contrasena": "112233",
+      "cedula": "21314151",
+      "rol": "Estudiante"
     }
   ]
 }

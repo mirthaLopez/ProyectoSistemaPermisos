@@ -566,8 +566,9 @@ const cedula = document.getElementById("cedula");
 const botonR = document.getElementById("botonR");
 const select = document.getElementById("select");
 const textoBienvenida = document.getElementById("textoBienvenida");
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 botonR.addEventListener("click", function() {
-    {
+    if (nombre.value !== "" && correo.value !== "" && contrasena.value !== "" && cedula.value !== "") {
         async function traerLista() {
             let listaUsuarios = await (0, _getUsers.GetUsers)();
             return listaUsuarios;
@@ -588,7 +589,7 @@ botonR.addEventListener("click", function() {
                 textoBienvenida.innerHTML = "Felicidades tu registro ha sido exitoso";
             } else textoBienvenida.innerHTML = "El usuario ya se encuentra registrado";
         }
-    }
+    } else textoBienvenida.innerHTML = "Llena todos los espacios";
 });
 
 },{"../services/postusuario":"cHvgq","../services/getUsers":"b4hYb"}],"cHvgq":[function(require,module,exports) {
@@ -597,7 +598,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "postUsuario", ()=>postUsuario);
 async function postUsuario(usuario) {
     try {
-        const response = await fetch(`http://localhost:3007/users`, {
+        const response = await fetch("http://localhost:3007/users", {
             method: "POST",
             headers: {
                 "Content-Type": "aplication/json"

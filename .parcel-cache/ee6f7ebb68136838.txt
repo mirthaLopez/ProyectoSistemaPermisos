@@ -1,8 +1,8 @@
-4304
+4315
 82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr\dist133686416036247736 1
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\runtime-react-refresh\lib133686416028670230 1
 80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\yaml\map.js133686416033259253 0
-68C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\package.json133687359808917462 0
+68C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\package.json133689164067992602 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-js\lib\GlobalOutputFormat.js133686416032646629 0
 101C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\node-gyp-build-optional.cmd133686416047071367 0
 73C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\package-lock.json133686604749490516 0
@@ -11,7 +11,11 @@
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\weak-lru-cache\README.md133686416032196643 0
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\abortcontroller-polyfill133686416033340950 1
 123C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_class_check_private_static_access.js133686416033812875 0
-60C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist133687511592364562 1
+92C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\bin\package.json133686416037032399 0
+83C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\img\FWD - Logotipo.webp133688293242419094 0
+107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\transformer-image\package.json133686416032206714 0
+91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-svgo133686416030412654 1
+60C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist133689239216523854 1
 99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\watcher\src\DirTree.hh133686416034470141 0
 86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@msgpackr-extract133686604748787210 1
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\node_modules\commander\index.js133686416029165552 0
@@ -28,7 +32,7 @@
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\syntax\node\Ratio.js133686416038457365 0
 124C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_class_check_private_static_access.mjs133686416038492490 0
 118C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\source-map\dist\wasm-bindings-web.js.flow133686416031053429 0
-63C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\db.json133687494278290941 0
+63C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\db.json133688124681706854 0
 108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\flow-root.js133686416041661849 0
 110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\test\fixtures\common-targets133686416039695138 1
 112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\update-browserslist-db\check-npm-version.js133686416028312999 0
@@ -44,14 +48,6 @@
 79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\fs133686416033862861 1
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\utils\src\openInBrowser.js133686416036661684 0
 79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\lib133686416036982305 1
-128C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.c133686416035623002 0
-118C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest5.c133686416037564212 0
-90C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\yaml\browser\types.js133686416036081644 0
-95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\color-convert\package.json133686416027727444 0
-104C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr\dist\index-no-eval.cjs.map133686416034951831 0
-98C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\mdn-data\css\definitions.json133686416032880704 0
-100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\TN.js133686416046142826 0
-77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\entities133686416034219563 1
 85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\timsort\index.js133686416030165234 0
 87C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\chrome-trace-event133686416031720488 1
 86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\term-size\license133686416030052876 0
@@ -64,7 +60,7 @@
 73C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc133686416015747354 1
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\posthtml-render\dist\index.d.ts133686416031522306 0
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\commander\Readme.md133686416031904536 0
-83C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\services\postusuario.js133686602529437615 0
+83C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\services\postusuario.js133688307787167172 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\CK.js133686416038369551 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\public\MutableBundleGraph.js133686416038128973 0
 63C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\css133686616185324226 1
@@ -73,12 +69,12 @@
 109C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\yaml\browser\dist\PlainValue-b8036b75.js133686416034734195 0
 108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\node-gyp-build-optional-packages\bin.js133686416028483432 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\LV.js133686416043409803 0
-99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\lib\mapping-list.js133686416032362020 0
 94C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\dist\svgo.browser.js133686416037724196 0
+99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\lib\mapping-list.js133686416032362020 0
 116C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\abortcontroller-polyfill\src\abortcontroller.js133686416031644008 0
 97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\watcher\src\Event.hh133686416034562467 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\EE.js133686416041129160 0
-63C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\img133686418344526072 1
+63C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\img133689016597093908 1
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-transitions.js133686416040341916 0
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\update-browserslist-db\index.d.ts133686416031924469 0
 116C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@babel\helper-validator-identifier\lib\index.js133686416031083414 0
@@ -96,7 +92,7 @@
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\u2f.js133686416046265771 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\RS.js133686416045271723 0
 119C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext133686416039725223 1
-79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\pages\ingresar.html133687347019777741 0
+79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\pages\ingresar.html133689237223642737 0
 77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\lib133686416038022267 1
 119C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-media-resolution.js133686416039845723 0
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\transformer-babel\LICENSE133686416027761449 0
@@ -110,16 +106,16 @@
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\nth-check\package.json133686416032332057 0
 121C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_class_private_field_loose_base.mjs133686416038630145 0
 77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\boolbase133686416029448490 1
-74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\js\registro.js133687511591330676 0
+74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\js\registro.js133689176957631258 0
 85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\semver\README.md133686416031944482 0
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\stable\package.json133686416027596682 0
 150C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js133686416032976031 0
-80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\services\getUsers.js133687229708401433 0
-76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\pages\index.html133686410702587840 0
+80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\services\getUsers.js133688307689827809 0
+76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\pages\index.html133688461319489829 0
 104C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\mdn-data\css\properties.schema.json133686416034179475 0
 92C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\bundler-default133686416031193784 1
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\SC.js133686416045367918 0
-79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\pages\registro.html133687443196600734 0
+79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\pages\registro.html133689238275155474 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\menu.js133686416043892450 0
 98C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr-extract\node_modules133686416046980903 1
 71C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\js\index.js133686410281633748 0
@@ -130,11 +126,27 @@
 99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\type-fest\ts41\snake-case.d.ts133686416035537211 0
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\watcher\prebuilds\darwin-arm64133686416035593014 1
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\timsort\build\timsort.js133686416031512293 0
-74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\js\ingresar.js133687273393918349 0
+74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\js\ingresar.js133688142011924809 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\GE.js133686416041943307 0
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\yaml\browser\seq.js133686416035653016 0
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\config-default133686416030830000 1
 116C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h133686416038533747 0
+78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\callsites133686416030669452 1
+90C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\rollup.config.js133686416039026153 0
+76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\img\alumno1.webp133688287749068900 0
+110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\node-gyp-build-optional-packages\index.js133686416030210467 0
+100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\CH.js133686416038264337 0
+100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\LU.js133686416043322472 0
+100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\convertPathData.js133686416034164285 0
+77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\escalade133686416031999682 1
+78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@trysound133686416015747354 1
+110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\blobbuilder.js133686416037301479 0
+83C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\img\fondo digital 1.jpg133689014567173118 0
+101C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\ParcelConfig.js133686416038402450 0
+77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree133686416039046138 1
+143C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js133686416030840046 0
+83C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\img\fondo digital 2.jpg133689015027397044 0
+111C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\inline-block.js133686416042535548 0
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\dist\lib\statuses.js133686416045697419 0
 74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\clone133686416031233782 1
 99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\removeUnusedNS.js133686416036961873 0
@@ -143,7 +155,7 @@
 109C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\websockets.js133686416046665711 0
 116C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_skip_first_generator_next.mjs133686416039272175 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\lib\svgo\css-class-list.js133686416034647763 0
-76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\css\ingresar.css133686842002987182 0
+76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\css\ingresar.css133689237525007167 0
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\package-manager\src\utils.js133686416035392585 0
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\beacon.js133686416036992394 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_async_generator_delegate.js133686416032009671 0
@@ -151,7 +163,7 @@
 138C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased\index.js133686416035482719 0
 101C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\cosmiconfig\dist\getDirectory.js133686416031344179 0
 95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\nth-check\lib\esm\parse.js133686416031441119 0
-76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\css\registro.css133686499934241550 0
+76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\src\css\registro.css133689239216101969 0
 73C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin133686416047058398 1
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\type-fest\source\conditional-keys.d.ts133686416032635421 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\PK.js133686416044889733 0
@@ -181,14 +193,6 @@
 122C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\node_modules\node-addon-api\package-support.json133686416033887975 0
 76C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel133686416016056646 1
 108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\ordered-binary\.idea\ordered-binary.iml133686416029863253 0
-78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\callsites133686416030669452 1
-90C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\rollup.config.js133686416039026153 0
-110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\node-gyp-build-optional-packages\index.js133686416030210467 0
-100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\CH.js133686416038264337 0
-100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\LU.js133686416043322472 0
-100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\convertPathData.js133686416034164285 0
-77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\escalade133686416031999682 1
-78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@trysound133686416015747354 1
 74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\acorn133686416032656788 1
 106C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\domelementtype\lib\esm\index.d.ts.map133686416031634019 0
 112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-paint-api.js133686416040051376 0
@@ -231,8 +235,6 @@
 79C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-select133686416034764204 1
 89C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr\index.d.cts133686416032101419 0
 154C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1133686416037754208 1
-77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree133686416039046138 1
-143C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js133686416030840046 0
 80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\detect-libc133686416031223748 1
 98C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\lib\source-node.js133686416033209229 0
 120C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_drop.c133686416035820310 0
@@ -279,6 +281,14 @@
 115C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\test\fixtures\application-targets133686416039669994 1
 113C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css3-boxsizing.js133686416040444876 0
 124C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133686416039413849 0
+128C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.c133686416035623002 0
+118C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest5.c133686416037564212 0
+90C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\yaml\browser\types.js133686416036081644 0
+95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\color-convert\package.json133686416027727444 0
+104C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr\dist\index-no-eval.cjs.map133686416034951831 0
+98C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\mdn-data\css\definitions.json133686416032880704 0
+100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\TN.js133686416046142826 0
+77C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\entities133686416034219563 1
 109C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\pdf-viewer.js133686416044694220 0
 90C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\buffer-from\readme.md133686416030250476 0
 99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\xxhash-wasm\esm\xxhash-wasm.js133686416029461214 0
@@ -498,9 +508,9 @@
 139C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\LICENSE133686416027853943 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\htmlnano\docs\docusaurus.config.js133686416032565791 0
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\walker133686416037461937 1
-108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\json-parse-even-better-errors\README.md133686416030764758 0
 80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\dist133686416037052424 1
 89C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\json5\dist\index.mjs133686416033729910 0
+108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\json-parse-even-better-errors\README.md133686416030764758 0
 85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\lib\xast.js133686416037921761 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\TD.js133686416045920601 0
 78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\type-fest133686416033651925 1
@@ -511,7 +521,6 @@
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\update-browserslist-db133686416031832457 1
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\events\src\types.js133686416032611057 0
 111C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_sliced_to_array_loose.js133686416037341442 0
-115C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-color-adjust.js133686416039091267 0
 82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\utility-types133686416033413065 1
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-placeholder.js133686416040061361 0
 112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-boxshadow.js133686416039001261 0
@@ -837,12 +846,12 @@
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\package.json133686416037105947 0
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\transformer-babel\src\utils.js133686416034164285 0
 104C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\utility-types\dist\utility-types.js133686416031299110 0
+91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\js-tokens\CHANGELOG.md133686416028468272 0
+110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-image\lib\loadNative.js133686416029823252 0
 108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\utility-types\dist\utility-types.js.map133686416032880704 0
 120C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133686416038214382 0
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\term-size\vendor\windows\term-size.exe133686416031419457 0
 86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\parcel\lib\cli.js133686416030659451 0
-91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\js-tokens\CHANGELOG.md133686416028468272 0
-110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-image\lib\loadNative.js133686416029823252 0
 97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\ordered-binary\tests\test.js133686416031624025 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\gen-mapping\dist\types\types.d.ts133686416033209229 0
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\to-regex-range\package.json133686416027581544 0
@@ -1147,7 +1156,6 @@
 95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\cache\lib\types.js133686416032991511 0
 86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\parcel\src\cli.js133686416031223748 0
 94C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\dist\bundle.min.js133686416034390134 0
-92C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\bin\package.json133686416037032399 0
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\ordered-binary\dist133686416028428247 1
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\is-number\README.md133686416030210467 0
 88C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\terser\bin\uglifyjs133686416030341379 0
@@ -1166,8 +1174,6 @@
 94C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\supports-color\browser.js133686416028322985 0
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\auxclick.js133686416036142332 0
 95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\term-size\vendor\.DS_Store133686416027891702 0
-125C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c133686416037261124 0
-97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\lib\base64-vlq.js133686416031512293 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\src\resolveOptions.js133686416038980831 0
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\syntax\node\StyleSheet.js133686416038685165 0
 78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\dist133686416037361462 1
@@ -1196,7 +1202,7 @@
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\syntax\config\walker.js133686416038935738 0
 98C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\convertColors.js133686416033908188 0
 104C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\convertStyleToAttrs.js133686416034440127 0
-85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.4c4932ba.js.map133687359810885674 0
+85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.4c4932ba.js.map133688162298238981 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lz4\lib\xxhash.c133686416037931750 0
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\removeTitle.js133686416036881764 0
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\svgo\plugins\mergeStyles.js133686416035280383 0
@@ -1326,6 +1332,8 @@
 89C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\README.md133686416028820702 0
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\safe-buffer\index.d.ts133686416031003429 0
 121C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_class_static_private_method_get.js133686416035422715 0
+125C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c133686416037261124 0
+97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\lib\base64-vlq.js133686416031512293 0
 123C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@babel\highlight\node_modules\supports-color\readme.md133686416030971702 0
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\types\index.js133686416030125285 0
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\source-map\lib\base64.js133686416031842484 0
@@ -1905,10 +1913,10 @@
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\src\UncommittedAsset.js133686416039494861 0
 124C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h133686416038467329 0
 123C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb.c133686416036556470 0
-112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-clip-path.js133686416039081193 0
-128C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_drop.1133686416034229585 0
-97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\color-convert\conversions.js133686416029783610 0
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\EC.js133686416041119164 0
+128C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_drop.1133686416034229585 0
+112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-clip-path.js133686416039081193 0
+97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\color-convert\conversions.js133686416029783610 0
 124C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.h133686416038670142 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\canvas-blending.js133686416038128973 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-text-indent.js133686416040291913 0
@@ -2473,7 +2481,7 @@
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\generator133686416038630145 1
 94C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\syntax\scope133686416038885629 1
 87C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\lexer133686416038790489 1
-74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.html133687477466260945 0
+74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.html133689238464621364 0
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\utils\clone.js133686416033749890 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\runtime-service-worker\src133686416029789037 1
 100C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-tree\lib\tokenizer\const.js133686416034083411 0
@@ -2606,7 +2614,7 @@
 91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\color-convert\index.js133686416030381484 0
 115C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133686416034229585 0
 109C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-select\lib\pseudo-selectors\index.js133686416032322051 0
-85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.c095dc3c.js.map133687511592364562 0
+85C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.c095dc3c.js.map133689238465368162 0
 113C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133686416035462709 0
 119C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\alternate-stylesheet.js133686416034627779 0
 117C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133686416034460124 0
@@ -2843,8 +2851,6 @@
 128C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\background-repeat-round-space.js133686416036702515 0
 113C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\battery-status.js133686416036806682 0
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\bigint.js133686416037241118 0
-110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\blobbuilder.js133686416037301479 0
-101C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\ParcelConfig.js133686416038402450 0
 112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\border-radius.js133686416037481935 0
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_await_value.mjs133686416038392494 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-htmlnano\LICENSE133686416027791338 0
@@ -2865,6 +2871,7 @@
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\diagnostic\src\diagnostic.js133686416030145251 0
 117C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-cascade-layers.js133686416039056120 0
 119C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-case-insensitive.js133686416039066124 0
+115C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-color-adjust.js133686416039091267 0
 117C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-color-function.js133686416039101282 0
 120C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-container-queries.js133686416039131296 0
 114C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-containment.js133686416039166201 0
@@ -3050,7 +3057,6 @@
 111C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\imagecapture.js133686416042380079 0
 108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-css\lib\CSSPackager.js133686416029043374 0
 110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\import-maps.js133686416042420290 0
-111C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\inline-block.js133686416042535548 0
 108C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\innertext.js133686416042545516 0
 113C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\input-datetime.js133686416042571841 0
 103C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\graph\src\AdjacencyList.js133686416031288986 0
@@ -3377,7 +3383,6 @@
 99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_defaults.mjs133686416038885629 0
 109C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\src\_empty.js133686416029803104 0
 119C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_define_enumerable_properties.mjs133686416038905709 0
-102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping\LICENSE133686416027828037 0
 106C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_define_property.mjs133686416038915726 0
 133C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_class_check_private_static_field_descriptor.js133686416033928207 0
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_export_star.mjs133686416038925714 0
@@ -3463,6 +3468,7 @@
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_iterable_to_array.js133686416036631671 0
 111C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-js\src\ESMOutputFormat.js133686416032467306 0
 119C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_iterable_to_array_limit_loose.js133686416036722592 0
+82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\pages.0155c232.js.map133688461325130022 0
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_jsx.js133686416036772506 0
 105C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_new_arrow_check.js133686416036816707 0
 112C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\workers\lib\process\ProcessChild.js133686416034667792 0
@@ -3506,8 +3512,6 @@
 95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core133686416037992253 1
 92C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-image133686416038564979 1
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@lezer\common\dist\mix.d.ts133686416032301939 0
-107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\transformer-image\package.json133686416032206714 0
-91C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-svgo133686416030412654 1
 89C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-css133686416030589442 1
 95C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\utils\src\index.js133686416036267613 0
 110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\utils\test\input\config\config.js133686416033093861 0
@@ -3839,7 +3843,7 @@
 121C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\fs-search\fs-search.linux-arm-gnueabihf.node133686416034219563 0
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-svg\src133686416029789037 1
 93C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-raw\lib133686416028670230 1
-71C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\index.html133686416112052622 0
+71C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\index.html133688461325130022 0
 120C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@babel\highlight\node_modules\has-flag\package.json133686416027853943 0
 97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-raw\LICENSE133686416027781248 0
 102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@parcel\packager-raw\package.json133686416030564207 0
@@ -4174,6 +4178,7 @@
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\sourcemap-codec133686416032342024 1
 94C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping133686416031934518 1
 99C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping\dist133686416032482942 1
+102C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping\LICENSE133686416027828037 0
 107C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping\package.json133686416030042854 0
 104C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping\README.md133686416032049664 0
 117C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\@jridgewell\trace-mapping\dist\trace-mapping.mjs133686416032372021 0
@@ -4280,7 +4285,7 @@
 83C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\json5.ps1133686416047045227 0
 97C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\node-gyp-build-optional133686416047071367 0
 115C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133686416047071367 0
-86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.a6ab13d3.css.map133687511592359485 0
+86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.a6ab13d3.css.map133689239216523854 0
 115C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133686416047071367 0
 110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\node-gyp-build-optional-packages.cmd133686416047071367 0
 110C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\node-gyp-build-optional-packages.ps1133686416047071367 0
@@ -4294,12 +4299,18 @@
 82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\svgo.ps1133686416047071367 0
 80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\terser133686416047081418 0
 84C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\node_modules\.bin\terser.ps1133686416047081418 0
-81C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.4c4932ba.js133687359810854070 0
-82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.8a28249e.css133687359810616136 0
-86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.8a28249e.css.map133687359810681181 0
-74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.html133687359811002769 0
+89C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\fondo digital 1.9d760bb8.jpg133689238465759775 0
+89C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\FWD - Logotipo.47cde43f.webp133689238465107082 0
+81C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.4c4932ba.js133688162298195684 0
+82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.8a28249e.css133688162298103015 0
+86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.8a28249e.css.map133688162298175683 0
+74C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ingresar.html133688162345026843 0
+78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\pages.0155c232.js133688461325130022 0
+78C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\pages.33d51885.js133688461325105345 0
+82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\pages.33d51885.js.map133688461325130022 0
+80C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\pages.8fdc2d2a.html133688461326023647 0
 82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\Plantilla.59712999.js133686410281603759 0
 86C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\Plantilla.59712999.js.map133686410281613742 0
 96C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\ProyectoSistemaPermisos.59712999.js133686416112144557 0
-82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.a6ab13d3.css133687511592320899 0
-81C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.c095dc3c.js133687511592336665 0
+82C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.a6ab13d3.css133689239216332137 0
+81C:\Users\gcaba\Desktop\proyecto\ProyectoSistemaPermisos\dist\registro.c095dc3c.js133689238465279603 0

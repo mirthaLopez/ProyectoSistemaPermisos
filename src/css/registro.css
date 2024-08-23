@@ -1,3 +1,58 @@
-.contenedor{
-    text-align: center;
+*{
+    box-sizing: border-box;
 }
+
+body{
+    background-image: url(../img/fondo\ digital\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedorA{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    justify-content: center;
+
+}
+.contenedorRegistro{
+    width: 300px;
+    height: 600px;
+    container-type: inline-size;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-left: 20;
+    border-radius: 4px;
+    box-shadow: 7px 13px 30px cadetblue;
+    color: white;
+    align-items: center;  
+}
+
+.input{
+    width: 200px;
+    height: 25px;
+}
+
+.select{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 25px;
+
+}
+.botonRegistrar{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+    background-color: aqua;
+
+}
+
+.textoBienvenida{
+    margin-top: 10px;
+}
+
+.link{
+    color: #0FD7CD;
+}
+
+
