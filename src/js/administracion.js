@@ -43,50 +43,59 @@ async function showRequests() {
         solicitud.appendChild(codigoPc);
         codigoPc.innerHTML = solicitudes[index].codigoPc;
         ///// Crea un boton Aceptar Solicitud//////////
-        let btnAceptar = document.createElement("button")
-        btnAceptar.innerHTML = "Aceptar solicitud";
-        solicitud.appendChild(btnAceptar);
+        let btnAceptar = document.createElement("div") // esta variable me permite crear un boton cada vez que se ejecuta el evento
+        btnAceptar.innerHTML = `<img class="btn" src="/check_5610944.cfc1f449.png">`;
+        btnAceptar.className = "btnContenedor2"
+        solicitud.appendChild(btnAceptar); //btn eliminar es hijo de la etiqueta listP
         ///// Crea un boton Rechazar Solicitud/////////
-        let btnRechazar = document.createElement("button")
-        btnRechazar.innerHTML = "Rechazar solicitud";
-        solicitud.appendChild(btnRechazar);
+        let btnRechazar = document.createElement("div") // esta variable me permite crear un boton cada vez que se ejecuta el evento
+        btnRechazar.innerHTML = `<img class="btn" src="/2031018.3a579747.png">`;
+        btnRechazar.className = "btnContenedor"
+        solicitud.appendChild(btnRechazar); //btn eliminar 
         /////Creo un evento para el boton Aceptar/////////
         btnAceptar.addEventListener("click", function () {
             let request = {
-                nombre:solicitudes[index].nombre,
-                correo:solicitudes[index].correo,
-                sede:solicitudes[index].sede,
-                fechaSalida:solicitudes[index].fechaSalida,
-                fechaIngreso:solicitudes[index].fechaIngreso,
-                codigoPc:solicitudes[index].codigoPc,
-                estado:"Aceptada"
+                nombre: solicitudes[index].nombre,
+                correo: solicitudes[index].correo,
+                sede: solicitudes[index].sede,
+                fechaSalida: solicitudes[index].fechaSalida,
+                fechaIngreso: solicitudes[index].fechaIngreso,
+                codigoPc: solicitudes[index].codigoPc,
+                estado: "Aceptada"
             }
             //updateRequests(request, solicitudes[index].id);
             //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
-            
-            let url="http://localhost:3007/allRequest";
-            let link="http://localhost:3007/aprovedRequest";
+
+            let url = "http://localhost:3007/allRequest";
+            let link = "http://localhost:3007/aprovedRequest";
+            let url2="http://localhost:3007/pendingRequest"
             PostRequest(request, url)
             PostRequest(request, link)
-            deleteRequests(solicitudes[index].id);
+            deleteRequests(url2,solicitudes[index].id);
             solicitud.remove();
+            linea.remove()
         })
         btnRechazar.addEventListener("click", function () {
             let request = {
-                nombre:solicitudes[index].nombre,
-                correo:solicitudes[index].correo,
-                sede:solicitudes[index].sede,
-                fechaSalida:solicitudes[index].fechaSalida,
-                fechaIngreso:solicitudes[index].fechaIngreso,
-                codigoPc:solicitudes[index].codigoPc,
-                estado:"Rechazada"
+                nombre: solicitudes[index].nombre,
+                correo: solicitudes[index].correo,
+                sede: solicitudes[index].sede,
+                fechaSalida: solicitudes[index].fechaSalida,
+                fechaIngreso: solicitudes[index].fechaIngreso,
+                codigoPc: solicitudes[index].codigoPc,
+                estado: "Rechazada"
             }
-            let url="http://localhost:3007/allRequest";
+            let url = "http://localhost:3007/allRequest";
             PostRequest(request, url);
-            let link="http://localhost:3007/pendingRequest"
-            deleteRequests(link,solicitudes[index].id);
+            let link = "http://localhost:3007/pendingRequest"
+            deleteRequests(link, solicitudes[index].id);
             solicitud.remove();
+            linea.remove()
+
         })
+        let linea = document.createElement("hr");
+        containerPendingRequests.appendChild(linea);
+        linea.className="saltoLinea"
     }
 }
 

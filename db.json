@@ -2,67 +2,27 @@
   "users": [],
   "pendingRequest": [
     {
-      "id": "e9ac",
+      "id": "ad50",
       "nombre": "javier",
       "correo": "javier.com",
-      "sede": "Nosara",
-      "fechaSalida": "2024-08-15",
-      "fechaIngreso": "2024-08-20",
-      "codigoPc": "09uu",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-28",
+      "codigoPc": "hsjdajdh",
       "estado": "Pendiente"
     },
     {
-      "id": "cd8b",
+      "id": "f9df",
       "nombre": "MIRTHA",
       "correo": "mirtha.com",
       "sede": "Puntarenas",
       "fechaSalida": "2024-08-21",
       "fechaIngreso": "2024-08-27",
       "codigoPc": "09uu",
-      "estado": "Pendiente"
+      "estado": "Aceptada"
     }
   ],
   "allRequest": [
-    {
-      "id": "be93",
-      "nombre": "mirtha",
-      "correo": "mirtha.com",
-      "sede": "Santa Ana",
-      "fechaSalida": "2024-08-21",
-      "fechaIngreso": "2024-08-28",
-      "codigoPc": "12347",
-      "estado": "Rechazada"
-    },
-    {
-      "id": "e0b8",
-      "nombre": "javier",
-      "correo": "javier.com",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-14",
-      "fechaIngreso": "2024-08-21",
-      "codigoPc": "567",
-      "estado": "Rechazada"
-    },
-    {
-      "id": "9329",
-      "nombre": "javier",
-      "correo": "javier.com",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-05",
-      "fechaIngreso": "2024-08-20",
-      "codigoPc": "7hfkjsdhfioewh",
-      "estado": "Aceptada"
-    },
-    {
-      "id": "e49a",
-      "nombre": "javier",
-      "correo": "javier.com",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-21",
-      "fechaIngreso": "2024-08-29",
-      "codigoPc": "09uu",
-      "estado": "Rechazada"
-    },
     {
       "id": "ad50",
       "nombre": "javier",
@@ -72,6 +32,116 @@
       "fechaIngreso": "2024-08-28",
       "codigoPc": "hsjdajdh",
       "estado": "Aceptada"
+    },
+    {
+      "id": "f79f",
+      "nombre": "MIRTHA",
+      "correo": "javier.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-22",
+      "fechaIngreso": "2024-09-03",
+      "codigoPc": "12347",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "98bb",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "e0c2",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "b09f",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "f9df",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "a2dc",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "70cc",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "e080",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-28",
+      "codigoPc": "hsjdajdh",
+      "estado": "Rechazada"
+    },
+    {
+      "id": "bb39",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-28",
+      "codigoPc": "hsjdajdh",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "6c7f",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "0ca9",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Rechazada"
     }
   ],
   "aprovedRequest": [
@@ -122,6 +192,96 @@
       "sede": "Nosara",
       "fechaSalida": "2024-08-14",
       "fechaIngreso": "2024-08-29",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "b547",
+      "nombre": "MIRTHA",
+      "correo": "javier.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-22",
+      "fechaIngreso": "2024-09-03",
+      "codigoPc": "12347",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "1523",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "0b0c",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "e972",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "41df",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "937e",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Nosara",
+      "fechaSalida": "2024-08-15",
+      "fechaIngreso": "2024-08-20",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "91a6",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
+      "codigoPc": "09uu",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "b073",
+      "nombre": "javier",
+      "correo": "javier.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-28",
+      "codigoPc": "hsjdajdh",
+      "estado": "Aceptada"
+    },
+    {
+      "id": "c214",
+      "nombre": "MIRTHA",
+      "correo": "mirtha.com",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-21",
+      "fechaIngreso": "2024-08-27",
       "codigoPc": "09uu",
       "estado": "Aceptada"
     }

@@ -571,6 +571,7 @@ const codigoPc = document.getElementById("codigoPc");
 const nombre = document.getElementById("nombre");
 const correo = document.getElementById("correo");
 const textAdvertencia = document.getElementById("textAdvertencia");
+const tableBody = document.querySelector("#tablaSolicitudes tbody");
 let correoUsuario = "javier.com";
 //////////////////////////////////////////////////////////////////////////
 const pendingRequest = document.getElementById("pendingRequest");
@@ -636,29 +637,55 @@ showRequests(historyUrl);
 console.log("aqui");
 async function showRequests(url) {
     let listaSolicitudes = await (0, _getRequests.GetRequests)(url);
-    for(let index = 0; index < listaSolicitudes.length; index++)if (listaSolicitudes[index].correo === correoUsuario) {
-        let solicitud = document.createElement("div");
-        solicitud.className = "solicitud";
-        if (listaSolicitudes[index].estado === "Pendiente") pendingRequest.appendChild(solicitud);
-        else if (listaSolicitudes[index].estado === "Aceptada") aprovedRequest.appendChild(solicitud);
-        else declineRequest.appendChild(solicitud);
-        let estado = document.createElement("p");
-        solicitud.appendChild(estado);
-        estado.innerHTML = listaSolicitudes[index].estado;
-        let nombre = document.createElement("p");
-        solicitud.appendChild(nombre);
-        nombre.innerHTML = listaSolicitudes[index].nombre;
-        let fechaSalida = document.createElement("p");
-        solicitud.appendChild(fechaSalida);
-        fechaSalida.innerHTML = listaSolicitudes[index].fechaSalida;
-        let fechaIngreso = document.createElement("p");
-        solicitud.appendChild(fechaIngreso);
-        fechaIngreso.innerHTML = listaSolicitudes[index].fechaIngreso;
-        let codigoPc = document.createElement("p");
-        solicitud.appendChild(codigoPc);
-        codigoPc.innerHTML = listaSolicitudes[index].codigoPc;
-    }
-}
+    let listaFiltrada = listaSolicitudes.filter((solicitud)=>solicitud.correo === correoUsuario);
+    let solicitudesInvertidas = listaFiltrada.reverse();
+    solicitudesInvertidas.map((solicitud)=>{
+        const fila = tableBody.insertRow();
+        const estado = fila.insertCell(0);
+        const nombre = fila.insertCell(1);
+        const fechaSalida = fila.insertCell(2);
+        const fechaIngreso = fila.insertCell(3);
+        const codigoPc = fila.insertCell(4);
+        estado.textContent = solicitud.estado;
+        nombre.textContent = solicitud.nombre;
+        fechaSalida.textContent = solicitud.fechaSalida;
+        fechaIngreso.textContent = solicitud.fechaIngreso;
+        codigoPc.textContent = solicitud.codigoPc;
+    });
+/*for (let index = 0; index < listaSolicitudes.length; index++) {
+        if (listaSolicitudes[index].correo === correoUsuario) {
+            let solicitud = document.createElement("div");
+            solicitud.className = "solicitud"
+            if (listaSolicitudes[index].estado === "Pendiente") {
+                pendingRequest.appendChild(solicitud);
+
+            } else if (listaSolicitudes[index].estado === "Aceptada") {
+                aprovedRequest.appendChild(solicitud);
+            } else {
+                declineRequest.appendChild(solicitud);
+            }
+
+            let estado = document.createElement("p");
+            solicitud.appendChild(estado);
+            estado.innerHTML = listaSolicitudes[index].estado;
+
+            let nombre = document.createElement("p");
+            solicitud.appendChild(nombre);
+            nombre.innerHTML = listaSolicitudes[index].nombre;
+
+            let fechaSalida = document.createElement("p");
+            solicitud.appendChild(fechaSalida);
+            fechaSalida.innerHTML = listaSolicitudes[index].fechaSalida;
+
+            let fechaIngreso = document.createElement("p");
+            solicitud.appendChild(fechaIngreso);
+            fechaIngreso.innerHTML = listaSolicitudes[index].fechaIngreso;
+
+            let codigoPc = document.createElement("p");
+            solicitud.appendChild(codigoPc);
+            codigoPc.innerHTML = listaSolicitudes[index].codigoPc;
+        }
+    }*/ }
 
 },{"../services/postRequest":"8gC41","../services/getRequests":"5M2Qv"}],"8gC41":[function(require,module,exports) {
 ////////////////////////////Post request to the server/////////////////////////

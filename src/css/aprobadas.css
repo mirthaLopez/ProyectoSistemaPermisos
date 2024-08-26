@@ -1,3 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .contenedorSolicitudes {
     width: 100%;
     display: flex;

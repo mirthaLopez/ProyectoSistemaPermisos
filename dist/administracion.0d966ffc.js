@@ -588,13 +588,17 @@ async function showRequests() {
         solicitud.appendChild(codigoPc);
         codigoPc.innerHTML = solicitudes[index].codigoPc;
         ///// Crea un boton Aceptar Solicitud//////////
-        let btnAceptar = document.createElement("button");
-        btnAceptar.innerHTML = "Aceptar solicitud";
-        solicitud.appendChild(btnAceptar);
+        let btnAceptar = document.createElement("div") // esta variable me permite crear un boton cada vez que se ejecuta el evento
+        ;
+        btnAceptar.innerHTML = `<img class="btn" src="/check_5610944.cfc1f449.png">`;
+        btnAceptar.className = "btnContenedor2";
+        solicitud.appendChild(btnAceptar); //btn eliminar es hijo de la etiqueta listP
         ///// Crea un boton Rechazar Solicitud/////////
-        let btnRechazar = document.createElement("button");
-        btnRechazar.innerHTML = "Rechazar solicitud";
-        solicitud.appendChild(btnRechazar);
+        let btnRechazar = document.createElement("div") // esta variable me permite crear un boton cada vez que se ejecuta el evento
+        ;
+        btnRechazar.innerHTML = `<img class="btn" src="/2031018.3a579747.png">`;
+        btnRechazar.className = "btnContenedor";
+        solicitud.appendChild(btnRechazar); //btn eliminar 
         /////Creo un evento para el boton Aceptar/////////
         btnAceptar.addEventListener("click", function() {
             let request = {
@@ -610,10 +614,12 @@ async function showRequests() {
             //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
             let url = "http://localhost:3007/allRequest";
             let link = "http://localhost:3007/aprovedRequest";
+            let url2 = "http://localhost:3007/pendingRequest";
             (0, _postRequest.PostRequest)(request, url);
             (0, _postRequest.PostRequest)(request, link);
-            (0, _deleteRequests.deleteRequests)(solicitudes[index].id);
+            (0, _deleteRequests.deleteRequests)(url2, solicitudes[index].id);
             solicitud.remove();
+            linea.remove();
         });
         btnRechazar.addEventListener("click", function() {
             let request = {
@@ -627,11 +633,14 @@ async function showRequests() {
             };
             let url = "http://localhost:3007/allRequest";
             (0, _postRequest.PostRequest)(request, url);
-            //updateRequests(request, solicitudes[index].id);
-            //PostHistory(solicitudes[index].nombre, solicitudes[index].sede, solicitudes[index].fechaSalida, solicitudes[index].fechaIngreso, solicitudes[index].codigoPc, estado);
-            (0, _deleteRequests.deleteRequests)(solicitudes[index].id);
+            let link = "http://localhost:3007/pendingRequest";
+            (0, _deleteRequests.deleteRequests)(link, solicitudes[index].id);
             solicitud.remove();
+            linea.remove();
         });
+        let linea = document.createElement("hr");
+        containerPendingRequests.appendChild(linea);
+        linea.className = "saltoLinea";
     }
 } /*  /// Crea un boton Eliminar
         let btnEliminar = document.createElement("button") 
@@ -732,9 +741,9 @@ async function PostRequest(solicitud, url) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "deleteRequests", ()=>deleteRequests);
-async function deleteRequests(id) {
+async function deleteRequests(url, id) {
     try {
-        const response = await fetch(`http://localhost:3007/pendingRequest/${id}`, {
+        const response = await fetch(url + "/" + id, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"

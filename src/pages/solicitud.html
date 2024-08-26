@@ -4,36 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="../css/solicitud.css">
     <title>Solicitud de Prestamo Computadora</title>
 </head>
 
 <body onload="cargar()">
-    <div class="mainContainer">
-        <div class="contenedorForm">
+    <header>
+        <div class="contenedorLogo">
+            <a href="https://www.fwdcostarica.com/" target="_blank"><img
+                    src="../img/FWD - Logotipo - Slogan_Slogan gris.webp" alt="logo"></a>
+        </div>
+    </header>
+    <div class="mainContainer" >
+        <div id="contenedorForm" class="containerChild">
             <div>
-                <h2>Formulario de solicitud</h2>
-                <p>Todos los datos deben ser llenados</p>
+                <div class="title">
+                    <h2>Formulario de solicitud</h2>
+                    <p>Todos los datos deben ser completados.</p>
+                </div>
                 <div class="contenedorDatos">
                     <div>
-                        <p>nombre</p>
-                        <input type="text" id="nombre"> <br>
+                        <p>Nombre</p>
+                        <input type="text" id="nombre" placeholder="Nombre"> <br>
                     </div>
                     <div>
                         <p>Correo</p>
-                        <input type="text" id="correo"> <br> <br>
+                        <input type="text" id="correo" placeholder="Correo"> <br> <br>
                     </div>
                     <div>
                         <p>Fecha de salida</p>
-                        <input type="date" id="fechaSalida"> <br>
+                        <input type="date" id="fechaSalida" class="inputFecha"> <br>
                     </div>
                     <div>
                         <p>Fecha de ingreso</p>
-                        <input type="date" id="fechaIngreso"> <br>
+                        <input type="date" id="fechaIngreso" class="inputFecha"> <br>
                     </div>
-                    <div>
-                        <br>
-                        <br>
+                    <div> <br>
                         <select class="sede" required id="selector">
                             <option value="">Elige tu sede</option>
                             <option value="Nosara">Nosara</option>
@@ -42,65 +54,85 @@
                         </select><br></div>
                     <div>
                         <p>Codigo PC</p>
-                        <input type="text" id="codigoPc"> <br> <br>
+                        <input type="text" id="codigoPc" placeholder="Codigo PC"> <br> <br>
                     </div>
                 </div>
-                <h4>Lee con atencion las siguientes condiciones y asegurate de marcar el checkbox si estas de acuerdo:
-                </h4>
                 <div class="contenedorCondiciones">
-                    <ul>
-                        <li>Si viajas en transporte público, debes resguardar tu equipo en tu bolso personal, no
-                            exponerlo.
-                        </li>
-                        <li>Si llevas el equipo, procura ir acompañado.</li>
-                        <li>Si está lloviendo, procura llevar el equipo en un vehículo apropiado para evitar algún daño.
-                        </li>
-                        <li>Evitar jugar, descargar o utilizar el equipo para otros motivos que no sean relacionados con
-                            el
-                            estudio.</li>
-                        <li>El equipo será revisado antes y después de ser entregado.Cualquier alteración o instalación
-                            indebida
-                            <br>
-                            podría resultar en la pérdida de privilegios.</li>
-                        <li>Si retiras una computadora sin haber completado el formulario y la boleta física, podrías
-                            ser
-                            amonestado.</li>
-                        <li>Este formulario debe llenarse junto con la boleta física, que debe estar firmada por la
-                            persona
-                            encargada.</li>
-                    </ul>
+                    <div class="textCondiciones">
+                        <p>Lee con atencion las siguientes condiciones y asegurate de marcar
+                            el checkbox si estas de acuerdo:
+                        </p>
+                    </div>
+                    <div class="inputCondiciones">
+                        <ul>
+                            <li>▪ Si viajas en transporte público, debes resguardar
+                                tu equipo en tu bolso personal, no exponerlo.</li>
+                            <li>▪ Si llevas el equipo, procura ir acompañado.</li>
+                            <li>▪ Si está lloviendo, procura llevar el equipo en un
+                                vehículo apropiado para evitar algún daño.</li>
+                            <li>▪ Evitar jugar, descargar o utilizar el equipo para
+                                otros motivos que no sean relacionados con el estudio. </li>
+                            <li> ▪ El equipo será revisado antes y después de ser entregado. Cualquier alteración o
+                                instalación indebida podría resultar
+                                en la pérdida de privilegios.
+                            </li>
+                            <li>▪ Si retiras una computadora sin haber completado el
+                                formulario y la boleta física, podrías ser amonestado.</li>
+                            <li>▪ Este formulario debe llenarse junto con la boleta física,
+                                que debe estar firmada por la persona encargada.</li>
+                        </ul>
+                    </div>
                 </div>
-                <label for="1">Aceptar condiciones</label>
-                <input type="checkbox" id="check">
-                <p id="textCheck"></p> <br>
-
-                <button id="btnEnviar">Enviar Solicitud</button> <br>
-
-                <h5 id="textAdvertencia"></h5>
+                <div class="contenedorCheck">
+                    <label for="1">Aceptar condiciones</label>
+                    <input type="checkbox" id="check">
+                    <p id="textCheck"></p>
+                </div>
+                <div class="textAdvertencia">
+                    <button id="btnEnviar">Enviar Solicitud</button> <br> <br>
+                    <p id="textAdvertencia"></p>
+                </div>
             </div>
         </div>
 
-
-        <div class="contenedorHistorial">
-            <h1> Echa un vistazo al estado de tu solicitud</h1>
-            <div class="titulos">
-                <h5>Estado de solicitud</h5>
-                <h5>Nombre</h5>
-                <h5>Fecha Salida</h5>
-                <h5>Fecha Ingreso</h5>
-                <h5>Codigo PC</h5>
+        <div id="contenedor2" class="containerChild">
+            <div class="tituloFlecha">
+                <div class="tituloHistorial">
+                    <h1> Echa un vistazo al estado de tu solicitud</h1>
+                </div>
+                <div id="contenedorFlecha">
+                    <img src="../img/flecha1.webp" alt="flecha">
+                </div>
             </div>
-            <div id="pendingRequest"></div>
-            <div id="aprovedRequest"></div>
-            <div id="declineRequest"> </div>
+
+            <div class="contenedorHistorial">
+                <table id="tablaSolicitudes">
+                    <tr class="titulos">
+                        <th>ESTADO</th>
+                        <th>NOMBRE</th>
+                        <th>FECHA SALIDA</th>
+                        <th>FECHA INGRESO</th>
+                        <th>CODIGO</th>
+                    </tr>
+                    <tbody>
+                          <!-- Rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
+
     <br>
-    <a href="http://localhost:1234/historial.html">ir</a>
-    <a href="http://localhost:1234/administracion.html">ir2</a>
+    <a href="http://localhost:1234/historial.html">ir a historial</a>
+    <a href="http://localhost:1234/administracion.html">ir a administracion</a>
     <br>
 
+    <footer>
+        <div>
+
+        </div>
+    </footer>
 
     <script type="module" src="../js/solicitud.js"></script>
 </body>

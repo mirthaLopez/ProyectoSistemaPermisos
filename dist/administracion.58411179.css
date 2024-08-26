@@ -1,6 +1,125 @@
-.solicitud {
-  grid-template-columns: repeat(7, 1fr);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("fantasy-style-galaxy-background.68016163.jpg");
+  background-size: cover;
+  font-family: Lilita One, sans-serif;
+}
+
+.mainContainer {
+  color: #4f4d4d;
+  justify-content: center;
+  display: flex;
+}
+
+#containerPendingRequests {
+  min-height: 500px;
+  width: 1200px;
+  background-color: #ffffffd0;
+  border-radius: 20px;
+  gap: 2rem;
+  padding: 20px;
+  box-shadow: 0 1px 2px #00000012, 0 2px 4px #00000012, 0 4px 8px #00000012, 0 8px 16px #00000012, 0 16px 32px #00000012, 0 32px 64px #00000012;
+}
+
+.containerTitulo {
+  grid-template-columns: 4fr 1fr;
+  margin-bottom: 20px;
   display: grid;
+}
+
+.titulo {
+  color: #f0f0f0;
+  -webkit-text-stroke: 1px #245ca4;
+  justify-content: center;
+  font-size: 20px;
+  display: flex;
+}
+
+.solicitud {
+  text-align: center;
+  grid-template-columns: repeat(7, 1fr);
+  align-content: center;
+  padding: 10px;
+  display: grid;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+}
+
+.saltoLinea, hr {
+  border: 1px solid #245ca4;
+  border-radius: 2px;
+}
+
+.btnContenedor, .btnContenedor2 {
+  justify-content: center;
+  padding: 5px;
+  display: flex;
+}
+
+.containerTitles {
+  text-align: center;
+  grid-template-columns: repeat(7, 1fr);
+  align-content: center;
+  padding: 10px;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    margin: 1rem;
+  }
+
+  .containerTitles {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .estado {
+    display: none;
+  }
+
+  #containerPendingRequests {
+    width: 500px;
+  }
+
+  .solicitud {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.contenedorBtn {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: end;
+  display: grid;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  color: #fff;
+  background: linear-gradient(to left, #f48c23 50%, #fff 50%) 100% / 200%;
+  border: none;
+  border-radius: 12px;
+  font-family: Lilita One, sans-serif;
+  font-size: 14px;
+  transition: all .5s ease-out;
+  box-shadow: 0 10px 22px #6060604d;
+}
+
+button:hover {
+  color: #000;
+  background-position: 0;
 }
 
 /*# sourceMappingURL=administracion.58411179.css.map */

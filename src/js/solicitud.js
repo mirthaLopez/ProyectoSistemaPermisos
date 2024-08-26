@@ -16,7 +16,7 @@ const codigoPc = document.getElementById("codigoPc");
 const nombre = document.getElementById("nombre");
 const correo = document.getElementById("correo");
 const textAdvertencia = document.getElementById("textAdvertencia");
-
+const tableBody = document.querySelector("#tablaSolicitudes tbody");
 let correoUsuario = "javier.com";
 //////////////////////////////////////////////////////////////////////////
 const pendingRequest = document.getElementById("pendingRequest");
@@ -89,7 +89,23 @@ showRequests(historyUrl);
 console.log("aqui");
 async function showRequests(url) {
     let listaSolicitudes = await GetRequests(url);
-    for (let index = 0; index < listaSolicitudes.length; index++) {
+    let listaFiltrada=listaSolicitudes.filter( solicitud => solicitud.correo === correoUsuario)
+    let solicitudesInvertidas = listaFiltrada.reverse();
+    solicitudesInvertidas.map((solicitud) => {
+        const fila = tableBody.insertRow();
+        const estado = fila.insertCell(0);
+        const nombre = fila.insertCell(1);
+        const fechaSalida = fila.insertCell(2);
+        const fechaIngreso= fila.insertCell(3);
+        const codigoPc = fila.insertCell(4);
+       
+        estado.textContent= solicitud.estado;
+        nombre.textContent= solicitud.nombre;
+        fechaSalida.textContent= solicitud.fechaSalida;
+        fechaIngreso.textContent= solicitud.fechaIngreso;
+        codigoPc.textContent= solicitud.codigoPc;
+    })
+    /*for (let index = 0; index < listaSolicitudes.length; index++) {
         if (listaSolicitudes[index].correo === correoUsuario) {
             let solicitud = document.createElement("div");
             solicitud.className = "solicitud"
@@ -122,5 +138,5 @@ async function showRequests(url) {
             solicitud.appendChild(codigoPc);
             codigoPc.innerHTML = listaSolicitudes[index].codigoPc;
         }
-    }
+    }*/
 }
