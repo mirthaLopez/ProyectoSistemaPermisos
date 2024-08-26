@@ -611,9 +611,6 @@ mostrarHistorial();
 async function mostrarHistorial() {
     let url = "http://localhost:3007/allRequest";
     let solicitudes = await (0, _getRequests.GetRequests)(url);
-    let titulo = document.createElement("h1");
-    titulo.innerHTML = "Historial de Solicitudes";
-    containerHistory.appendChild(titulo);
     for(let index = 0; index < solicitudes.length; index++){
         let solicitud = document.createElement("div");
         solicitud.className = "solicitud";
@@ -648,6 +645,7 @@ async function mostrarHistorial() {
         //Crea un boton Eliminar
         let btnEliminar = document.createElement("button");
         btnEliminar.innerHTML = "Eliminar registro";
+        btnEliminar.className = "btnEliminar";
         solicitud.appendChild(btnEliminar);
         //Creo un evento para el boton Eliminar
         btnEliminar.addEventListener("click", function() {

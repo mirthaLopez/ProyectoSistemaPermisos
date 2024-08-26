@@ -5,7 +5,6 @@ import {GetRequests} from "../services/getRequests";
 const inputSearch = document.getElementById("inputSearch");
 const btnSearch = document.getElementById("btnSearch");
 const tituloBusqueda = document.getElementById("tituloBusqueda")
-
 /////////////////////Evento Boton Busqueda///////////////////////
 btnSearch.addEventListener("click", function () {
     containerResults.innerHTML = " "
@@ -64,10 +63,6 @@ async function mostrarHistorial() {
     let url = "http://localhost:3007/allRequest";
     let solicitudes = await GetRequests(url);
 
-    let titulo = document.createElement("h1");
-    titulo.innerHTML = "Historial de Solicitudes";
-    containerHistory.appendChild(titulo);
-
     for (let index = 0; index < solicitudes.length; index++) {
         let solicitud = document.createElement("div");
         solicitud.className = "solicitud"
@@ -83,11 +78,11 @@ async function mostrarHistorial() {
 
         let fechaSalida = document.createElement("p");
         solicitud.appendChild(fechaSalida);
-        fechaSalida.innerHTML = solicitudes[index].fechaSalida;
+        fechaSalida.innerHTML =solicitudes[index].fechaSalida;
 
         let fechaIngreso = document.createElement("p");
         solicitud.appendChild(fechaIngreso);
-        fechaIngreso.innerHTML = solicitudes[index].fechaIngreso;
+        fechaIngreso.innerHTML =solicitudes[index].fechaIngreso;
 
         let codigoPc = document.createElement("p");
         solicitud.appendChild(codigoPc);
@@ -110,6 +105,7 @@ async function mostrarHistorial() {
         //Crea un boton Eliminar
         let btnEliminar = document.createElement("button")
         btnEliminar.innerHTML = "Eliminar registro";
+        btnEliminar.className= "btnEliminar"
         solicitud.appendChild(btnEliminar);
         //Creo un evento para el boton Eliminar
         btnEliminar.addEventListener("click", function () {

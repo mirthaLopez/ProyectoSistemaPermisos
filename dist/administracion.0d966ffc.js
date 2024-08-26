@@ -590,13 +590,13 @@ async function showRequests() {
         ///// Crea un boton Aceptar Solicitud//////////
         let btnAceptar = document.createElement("div") // esta variable me permite crear un boton cada vez que se ejecuta el evento
         ;
-        btnAceptar.innerHTML = `<img class="btn" src="/check_5610944.cfc1f449.png">`;
+        btnAceptar.innerHTML = `<img class="btn" src="/grayCheck.8f261396.png">`;
         btnAceptar.className = "btnContenedor2";
         solicitud.appendChild(btnAceptar); //btn eliminar es hijo de la etiqueta listP
         ///// Crea un boton Rechazar Solicitud/////////
         let btnRechazar = document.createElement("div") // esta variable me permite crear un boton cada vez que se ejecuta el evento
         ;
-        btnRechazar.innerHTML = `<img class="btn" src="/2031018.3a579747.png">`;
+        btnRechazar.innerHTML = `<img class="btn" src="/grayX.e347d08b.png">`;
         btnRechazar.className = "btnContenedor";
         solicitud.appendChild(btnRechazar); //btn eliminar 
         /////Creo un evento para el boton Aceptar/////////

@@ -3,23 +3,115 @@
     margin: 0px;
     box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-#containerResults{
+body{
+    font-family: "Lilita One", sans-serif;
+    background-image: url(../img/fantasy-style-galaxy-background.jpg);
+    background-size: cover;
+}
+
+#containerResults {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
 
-.solicitud{
+.solicitud {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
 
-.icono{
+.icono {
     height: 60px;
     width: 50px;
 }
 
-.contenedorSearch{
+.contenedorSearch {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin: 20px;
+}
+
+.barraBusqueda {
+    display: flex;
+    justify-content: end;
+}
+
+input{
+    width: 80%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #4f4d4d;
+    border-radius: 20px;
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+input:hover {
+    border-color: #0c7c84; 
+    transform: translateY(-3px);
+}
+
+.btnBusqueda {
+    display: flex;
+    justify-content: left;
+}
+
+#btnSearch, .btnEliminar {
+    margin:20px;
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    font-family: "Lilita One", sans-serif;
+    color: #fff;
+    background-color: #0c7c84;
+    border: none;
+    box-shadow: 0px 10px 22px rgba(96, 96, 96, 0.3);
+    border-radius: 12px;
+}
+
+#btnSearch:hover {
+    color: black;
+    background-position: left;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    color: #4f4d4d;
+}
+#containerHistory{
+    background-color: rgba(255, 255, 255, 0.817);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 20px;
+    min-width: 1000px;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+}
+
+.tituloHistorial{
+    font-size: 40px;
+    color:#f0f0f0;
+    -webkit-text-stroke: 1px #245ca4;
+    margin: 20px;
+}
+
+/*Media Quearies*/
+@media (max-width:600px) {
+    #containerHistory{
+        margin: auto;
+        min-width:fit-content;
+    }
+    .solicitud {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .icono{
+        min-width: auto;
+        min-height: auto;
+    }
 }

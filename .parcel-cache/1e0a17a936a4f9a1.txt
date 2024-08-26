@@ -1,18 +1,4 @@
-4386
-129C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\utility-types\dist\mapped-types.js.map133685733351929190 0
-140C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-backdrop-filter.js133691154367745427 0
-131C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\public\PluginOptions.js133685733359435139 0
-122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\IT.js133691154382308118 0
-104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\clone\LICENSE133685733345504013 0
-144C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133685733359059057 0
-137C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c133685733357465168 0
-106C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\source-map\dist133686380961068898 1
-120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\cosmiconfig\dist\index.js.map133685733354405779 0
-135C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\v8\v8-fast-api-calls-v16.h133685733359495125 0
-120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\entities\lib\encode-trie.d.ts133685733354567480 0
-97C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\base-x133686380920493968 1
-121C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\node-addon-api\tools\README.md133685733354155234 0
-132C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\eventsource.js133691154375873189 0
+4390
 105C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\.bin\json5.cmd133685733371239527 0
 129C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_set_prototype_of.mjs133685733360686175 0
 123C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\terser\lib\compress\inference.js133685733356054461 0
@@ -33,7 +19,7 @@
 144C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\index.js133685733343055466 0
 107C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\svgo\lib\svgo.js133685733358427361 0
 95C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\csso133686380941744644 1
-90C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\package.json133691154417539432 0
+90C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\package.json133691573789223279 0
 148C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\watcher\prebuilds\darwin-x64\node.napi.glibc.node133685733356490737 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\AD.js133691154361978492 0
 117C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\graph\lib\types.js133685733353448550 0
@@ -72,7 +58,7 @@
 132C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\electron-to-chromium\chromium-versions.js133685733343975258 0
 140C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133685733353169988 0
 99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\mdn-data133686380954923415 1
-82C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist133691231752137239 1
+82C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist133691573794417778 1
 137C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\electron-to-chromium\full-chromium-versions.js133685733345127851 0
 115C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\postcss-value-parser\lib133686380959357096 1
 140C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-read-only-write.js133691154371811103 0
@@ -105,7 +91,7 @@
 117C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\react-refresh\package.json133685733351637053 0
 98C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\img\flecha1.webp133690150750908724 0
 85C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\css133687684350958962 1
-85C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\img133691157234999740 1
+85C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\img133691568823990503 1
 107C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\semver\README.md133685733350935525 0
 145C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\transformer-js\parcel-swc.linux-arm64-gnu.node133685733364934870 0
 123C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\public\Asset.js133685733353688869 0
@@ -129,7 +115,7 @@
 121C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\src133686380893442219 1
 102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\.bin\parcel133685733371249509 0
 109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\posthtml\readme.md133685733346264443 0
-107C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\pages\administracion.html133691230326373868 0
+107C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\pages\administracion.html133691573176744123 0
 121C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\utils\src\sourcemap.js133685733358005604 0
 105C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\aprobadas.94b69fae.css133689071367677894 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\GH.js133691154378744727 0
@@ -154,18 +140,28 @@
 110C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\terser\lib\scope.js133685733357278645 0
 145C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0133686380899704279 1
 117C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\msgpackr\dist\index.js.map133685733355497168 0
-102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\js\administracion.js133691167019996771 0
+102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\js\administracion.js133691571084811594 0
 137C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\dom-serializer\node_modules\entities\readme.md133685733352985430 0
 113C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\node-gyp-build\LICENSE133685733343184946 0
 96C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\acorn133686380920132491 1
 133C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css3-cursors.js133691154372767815 0
 173C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\main.js133685733357248657 0
+120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\weak-lru-cache\dist\index.cjs133685733343497387 0
+112C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\htmlparser2\README.md133685733352585074 0
+144C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\node_modules\node-addon-api\package-support.json133685733353478553 0
+125C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133685733352190282 0
+138C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\package-manager\src\NodeResolverBase.js133685733354841016 0
+104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\react-refresh133686380960209441 1
+111C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\source-map\README.md133685733344171995 0
+95C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\img\grayX.png133691568695504355 0
+115C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\picocolors\picocolors.js133685733344691161 0
+116C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_get.mjs133685733360259650 0
 115C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\entities\lib\decode.d.ts133685733354465898 0
 145C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one133686380890232185 1
 97C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\js\aprobadas.js133691082178154797 0
 108C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\terser\bin\terser133685733344947177 0
 112C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\posthtml\lib\index.js133685733344937176 0
-104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\css\administracion.css133691231751728780 0
+104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\css\administracion.css133691563631174566 0
 137C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133685733353908017 0
 126C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\svgo\plugins\cleanupListOfValues.js133685733352535038 0
 113C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\msgpackr\dist\index.js133685733352169721 0
@@ -229,6 +225,8 @@
 108C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\react-refresh\cjs133686380960286546 1
 97C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@types133686380919515938 1
 126C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\img\FWD - Logotipo - Slogan_Slogan gris.webp133688223824076107 0
+99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\img\grayCheck.png133691568837167978 0
+119C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\commander\typings\index.d.ts133685733351779249 0
 110C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\src\writer.cpp133685733358876069 0
 133C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\border-image.js133691154365199038 0
 102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\terser\dist133686380963938586 1
@@ -286,7 +284,7 @@
 121C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_to_array.mjs133685733360808206 0
 132C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\reporter-dev-server\src\Server.js133685733347208683 0
 109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\source-map-support133686380961495807 1
-99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\css\solicitud.css133691125066970068 0
+99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\src\css\solicitud.css133691562245637708 0
 138C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-text-box-trim.js133691154372448173 0
 108C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\commander\LICENSE133685733343266770 0
 111C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\json5\lib\index.d.ts133685733353458574 0
@@ -307,6 +305,20 @@
 99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\svgo\bin133686380961981929 1
 116C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@types\parse-json\LICENSE133685733343312011 0
 114C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\to-regex-range\index.js133685733343854372 0
+129C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\utility-types\dist\mapped-types.js.map133685733351929190 0
+140C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-backdrop-filter.js133691154367745427 0
+131C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\public\PluginOptions.js133685733359435139 0
+122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\IT.js133691154382308118 0
+104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\clone\LICENSE133685733345504013 0
+144C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133685733359059057 0
+137C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c133685733357465168 0
+106C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\source-map\dist133686380961068898 1
+120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\cosmiconfig\dist\index.js.map133685733354405779 0
+135C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\dependencies\v8\v8-fast-api-calls-v16.h133685733359495125 0
+120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\entities\lib\encode-trie.d.ts133685733354567480 0
+97C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\base-x133686380920493968 1
+121C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\node-addon-api\tools\README.md133685733354155234 0
+132C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\eventsource.js133691154375873189 0
 99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\boolbase133686380920641595 1
 112C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\browserslist\parse.js133685733350894143 0
 124C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\update-browserslist-db\index.d.ts133685733350915496 0
@@ -403,8 +415,6 @@
 99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\entities133686380945473201 1
 135C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\css-dir-pseudo.js133691154369139695 0
 140C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\transformer-js\parcel-swc.darwin-x64.node133685733362189200 0
-142C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\constraint-validation.js133691154366978804 0
-134C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\src\requests\PackageRequest.js133685733358856071 0
 99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\error-ex133686380946029916 1
 119C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\electron-to-chromium\LICENSE133685733343236776 0
 99C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\escalade133686380946239012 1
@@ -585,13 +595,6 @@
 137C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\multibackgrounds.js133691154387396155 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\KE.js133691154382620450 0
 120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\type-fest\source\mutable.d.ts133685733354236041 0
-120C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\weak-lru-cache\dist\index.cjs133685733343497387 0
-112C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\htmlparser2\README.md133685733352585074 0
-144C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\node_modules\node-addon-api\package-support.json133685733353478553 0
-125C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133685733352190282 0
-138C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\package-manager\src\NodeResolverBase.js133685733354841016 0
-104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\react-refresh133686380960209441 1
-111C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\source-map\README.md133685733344171995 0
 112C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\yaml\browser\types.js133685733356306024 0
 129C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\transformer-react-refresh-wrap133686380909830883 1
 118C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\lmdb\src\ordered-binary.cpp133685733358774767 0
@@ -1139,7 +1142,7 @@
 130C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\csso\lib\restructure\6-restructBlock.js133685733347306102 0
 109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\picocolors\LICENSE133685733343149780 0
 101C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\terser\bin133686380963821770 1
-113C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.0d966ffc.js.map133691230837699435 0
+113C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.0d966ffc.js.map133691573792324830 0
 126C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\css-tree\lib\syntax\node\Comment.js133685733353615229 0
 105C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\terser\LICENSE133685733343904456 0
 119C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\csso\lib\clean\WhiteSpace.js133685733356944863 0
@@ -1584,8 +1587,6 @@
 113C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\picomatch\lib\utils.js133685733350945489 0
 124C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\htmlnano\docs\docs\050-modules.md133685733357684616 0
 114C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\picocolors\package.json133685733345418887 0
-115C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\picocolors\picocolors.js133685733344691161 0
-116C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_get.mjs133685733360259650 0
 111C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\picocolors\README.md133685733346108521 0
 138C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\lib\requests\ParcelBuildRequest.js133685733359114391 0
 158C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\index.js133685733352139766 0
@@ -2683,7 +2684,6 @@
 139C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_initializer_define_property.js133685733356505867 0
 113C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\commander\CHANGELOG.md133685733346791513 0
 121C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\commander\package-support.json133685733345504013 0
-119C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\commander\typings\index.d.ts133685733351779249 0
 112C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\markdown-ansi133686380893030747 1
 110C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\color-name\index.js133685733343995334 0
 114C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\color-name\package.json133685733343266770 0
@@ -2891,7 +2891,6 @@
 133C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_class_name_tdz_error.mjs133685733359258397 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\UA.js133691154399112532 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\UG.js133691154399112532 0
-126C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\const.js133691154366978804 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\VG.js133691154400521561 0
 122C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\regions\VI.js133691154400521561 0
 124C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\aac.js133691154361601444 0
@@ -2925,11 +2924,14 @@
 125C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\colr.js133691154366852905 0
 152C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\optimizer-image\parcel-image.linux-arm-gnueabihf.node133685733357118047 0
 144C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\comparedocumentposition.js133691154366958670 0
+126C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\const.js133691154366978804 0
+142C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\constraint-validation.js133691154366978804 0
+134C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\core\src\requests\PackageRequest.js133685733358856071 0
 142C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js133691154367159744 0
 143C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\contentsecuritypolicy2.js133691154367159744 0
 115C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\reporter-cli\lib133686380901531894 1
-173C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\package.json133685733358929760 0
 152C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\node.abi108.node133685733346520837 0
+173C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\package.json133685733358929760 0
 118C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@lezer\common\dist\index.js133685733346334794 0
 125C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\cors.js133691154367159744 0
 142C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\caniuse-lite\data\features\credential-management.js133691154367527987 0
@@ -3515,6 +3517,7 @@
 129C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\src\_write_only_error.mjs133685733361011345 0
 138C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_apply_decorated_descriptor.js133685733344237399 0
 135C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_assert_this_initialized.js133685733346791513 0
+105C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\grayCheck.8f261396.png133691570519583531 0
 143C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@parcel\runtime-js\src\helpers\worker\wasm-loader.js133685733356024457 0
 136C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_async_generator_delegate.js133685733351038807 0
 130C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\@swc\helpers\lib\_async_to_generator.js133685733351719253 0
@@ -4354,19 +4357,20 @@
 102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\.bin\terser133685733371249509 0
 106C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\node_modules\.bin\terser.ps1133685733371249509 0
 104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\aceptada.cabe0510.png133687508763331093 0
-109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.0d966ffc.js133691230837693775 0
-110C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.58411179.css133691231752137239 0
-114C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.58411179.css.map133691231752137239 0
-102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.html133691230837848802 0
+109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.0d966ffc.js133691573792302269 0
+110C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.58411179.css133691573792100581 0
+114C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.58411179.css.map133691573792100581 0
+102C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\administracion.html133691573792294168 0
 109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\aprobadas.94b69fae.css.map133689071367734194 0
 104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\aprobadas.ae4b82fe.js133689071367529327 0
 108C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\aprobadas.ae4b82fe.js.map133689071367717979 0
 97C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\aprobadas.html133689071367529327 0
 100C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\bing.d2458793.jpg133690952511365682 0
-127C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\fantasy-style-galaxy-background.68016163.jpg133691230839857807 0
+127C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\fantasy-style-galaxy-background.68016163.jpg133691573794417778 0
 104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\flecha1.5a8515fa.webp133691126435097699 0
-104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\flecha4.3f1c71cf.webp133691230837529145 0
-132C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\FWD - Logotipo - Slogan_Slogan gris.78054db0.webp133691230837699435 0
+104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\flecha4.3f1c71cf.webp133691573792100581 0
+132C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\FWD - Logotipo - Slogan_Slogan gris.78054db0.webp133691573792100581 0
+101C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\grayX.e347d08b.png133691570519583531 0
 105C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\historial.6fd4baa1.css133689222175893453 0
 109C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\historial.6fd4baa1.css.map133689222175893453 0
 104C:\Users\Mirtha Lopez\Desktop\ProyectoSistemaPermisos\ProyectoSistemaPermisos\dist\historial.c40667c0.js133689222225223197 0

@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/historial.6fd4baa1.css">
     <title>Historial</title>
 </head>
-<body>
-    <br>
-    <br>
-    <div class="contenedorSearch">
-        <input type="text" id="inputSearch"> 
-        <button id="btnSearch">Buscar</button>
-    </div>
-    <br>
-    <br>
 
-    <div style="display: none" id="tituloBusqueda"><h1>Aqui tienes los resultados de tu busqueda</h1></div>
+<body>
+    <header>
+        <div class="contenedorLogo">
+            <a href="https://www.fwdcostarica.com/" target="_blank"><img src="/FWD%20-%20Logotipo%20-%20Slogan_Slogan%20gris.78054db0.webp" alt="logo"></a>
+        </div>
+    </header>
+    <div class="contenedorSearch">
+        <div class="barraBusqueda"><input type="text" id="inputSearch"> </div>
+        <div class="btnBusqueda"><button id="btnSearch">Buscar</button></div>
+    </div>
+    <div style="display: none" id="tituloBusqueda">
+        <h1>Aqui tienes los resultados de tu busqueda</h1>
+    </div>
     <div class="mainContainer">
         <div id="containerResults" style="border: 1px #6a5acd">
         </div>
         <div id="containerHistory">
+            <h1 class="tituloHistorial">HISTORIAL DE SOLICITUDES</h1>
         </div>
     </div>
 
     <script src="/historial.c40667c0.js" defer=""></script>
 </body>
+
 </html>
