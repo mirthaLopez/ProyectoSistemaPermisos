@@ -9,13 +9,18 @@
 }
 
 body {
-  background-image: url("fantasy-style-galaxy-background.68016163.jpg");
+  background-image: url("gradiente-vector-fondo-azul-blanco-medio-tono_901408-26576.6559a7d2.avif");
   background-size: cover;
   font-family: Lilita One, sans-serif;
 }
 
-#containerResults, .solicitud {
+.solicitud {
   grid-template-columns: repeat(7, 1fr);
+  display: grid;
+}
+
+.solicitud2 {
+  grid-template-columns: repeat(6, 1fr);
   display: grid;
 }
 
@@ -89,14 +94,24 @@ input:hover {
   box-shadow: 0 1px 2px #00000012, 0 2px 4px #00000012, 0 4px 8px #00000012, 0 8px 16px #00000012, 0 16px 32px #00000012, 0 32px 64px #00000012;
 }
 
-.tituloHistorial {
+#containerResults {
+  min-width: 900px;
+  text-align: center;
+  background-color: #ffffffd0;
+  border-radius: 20px;
+  justify-content: center;
+  padding: auto;
+  box-shadow: 0 1px 2px #00000012, 0 2px 4px #00000012, 0 4px 8px #00000012, 0 8px 16px #00000012, 0 16px 32px #00000012, 0 32px 64px #00000012;
+}
+
+.tituloHistorial, .tituloResultado {
   color: #f0f0f0;
   -webkit-text-stroke: 1px #245ca4;
   margin: 20px;
   font-size: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #containerHistory {
     min-width: -moz-fit-content;
     min-width: fit-content;
@@ -110,6 +125,17 @@ input:hover {
   .icono {
     min-width: auto;
     min-height: auto;
+  }
+
+  #containerResults {
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    margin: auto;
+  }
+
+  .tituloResultado {
+    margin: 10px;
+    font-size: 30px;
   }
 }
 
